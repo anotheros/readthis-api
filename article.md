@@ -1,402 +1,389 @@
 
-[无服务器架构 - 从使用场景分析其6大特性](http://100000p.com/article/2c9089175a236208015a238eebfd0000)
- </br>[基于Spring Boot和Spring Cloud实现微服务架构学习(一)-Spring框架介绍](http://100000p.com/article/2c9089175a1d42b1015a21c210560035)
- </br>[基于Spring Boot和Spring Cloud实现微服务架构学习(二)](http://100000p.com/article/2c9089175a1d42b1015a21be49410031)
- </br>[基于Spring Boot和Spring Cloud实现微服务架构学习(三)](http://100000p.com/article/2c9089175a1d42b1015a21bbfe68002d)
- </br>[基于Spring Boot和Spring Cloud实现微服务架构学习(四)](http://100000p.com/article/2c9089175a1d42b1015a21b16c680027)
- </br>[基于Spring Boot和Spring Cloud实现微服务架构学习(五)-Docker总结 ](http://100000p.com/article/2c9089175a1d42b1015a21afdcd70023)
- </br>[基于Spring Boot和Spring Cloud实现微服务架构学习(六)-Docker应用](http://100000p.com/article/2c9089175a1d42b1015a21ad1f11001e)
- </br>[微服务应用-基于Spring Cloud和Reactor构建网上商店微服务(上)](http://100000p.com/article/2c9089175a1d42b1015a21a9230f001a)
- </br>[微服务应用-基于Spring Cloud和Reactor构建网上商店微服务(下) ](http://100000p.com/article/2c9089175a1d42b1015a21a035530014)
- </br>[微服务应用-基于Spring Cloud和Docker构建电影推荐微服务 ](http://100000p.com/article/2c9089175a1d42b1015a219d1785000f)
- </br>[微服务要素-十二要素（The Twelve Factors）](http://100000p.com/article/2c9089175a1d42b1015a2196c153000b)
- </br>[人一生中至少要有两次冲动，奋不顾身的爱情，说走就走的旅行](http://100000p.com/article/2c9089175a1d42b1015a1dd72ddf0000)
- </br>[看不见的竞争之把握意见领袖](http://100000p.com/article/2c9089175a180b13015a1810f0500000)
- </br>[支撑微博千亿调用的轻量级RPC框架：Motan](http://100000p.com/article/2c9089175a0c83d7015a0dee95a00010)
- </br>[微博基于Docker的混合云平台设计与实践](http://100000p.com/article/2c9089175a0c83d7015a0dd6481b0007)
- </br>[爱油科技基于SpringCloud的微服务实践](http://100000p.com/article/2c9089175a0c83d7015a0c8855d90000)
- </br>[前端不为人知的一面](http://100000p.com/article/2c90891759fe4a14015a03809e580000)
- </br>[什么是工程师文化？](http://100000p.com/article/2c90891759f8f1e90159fe23b450002d)
- </br>[年终总结 & 算法数据的思考 & 结尾彩蛋](http://100000p.com/article/2c90891759f8f1e90159fc309d940015)
- </br>[制作一款App需要的成本](http://100000p.com/article/2c90891759f8f1e90159fc2f2ab30013)
- </br>[产品经理的段位——说说腾讯的产品职级](http://100000p.com/article/2c90891759f8f1e90159fc2d7adf0011)
- </br>[互联网广告作弊十八般武艺(下)](http://100000p.com/article/2c90891759f8f1e90159f9922060000f)
- </br>[互联网广告作弊十八般武艺(上)](http://100000p.com/article/2c90891759f8f1e90159f991f917000d)
- </br>[一个理工狗的“约炮”经历](http://100000p.com/article/2c90891759f8f1e90159f902d273000b)
- </br>[100个天使用户，足以引爆一个产品](http://100000p.com/article/2c90891759f8f1e90159f90283060009)
- </br>[谈谈财务自由](http://100000p.com/article/2c90891759f8f1e90159f8fd27400001)
- </br>[《哈佛商业评论》史上最佳文章：你事业的上限究竟在哪里？](http://100000p.com/article/2c90891759e9868c0159e989e2980000)
- </br>[谈谈创业公司的技术选型](http://100000p.com/article/c886979d9ba44585af70659f72b86d81)
- </br>[吴声：API思维和次平台，这两个词让内容创业天翻地覆](http://100000p.com/article/7cc5f031a98848fcb2c9d0d17128ff98)
- </br>[离职总结 | 如何做个好员工？](http://100000p.com/article/640582e5f89a4bdc985b8a627d2cbcba)
- </br>[创业者的噩梦 - 为什么没人能帮忙。](http://100000p.com/article/0fb86fbf04e04999addae73f58ba0f8b)
- </br>[程序员，你为什么值这么多钱？](http://100000p.com/article/ba877aaf2f294acebd2e7aa7d47df308)
- </br>[PM可以从谷歌 Sprint 学到的设计工作法](http://100000p.com/article/60c38fdde57843a98228aa5cb6045fe1)
- </br>[吴军博士硅谷第一封来信：不做伪工作者](http://100000p.com/article/3e94ca74a0854170818f8c5af1a83b65)
- </br>[月入十万：大部分人努力的方向都错了](http://100000p.com/article/aee70b980f7d41b98c9757e97a3c33c8)
- </br>[你没穷过你不懂](http://100000p.com/article/8722443c30ab47efb7cd921befb38f09)
- </br>[二十几岁，最重要的是富养自己](http://100000p.com/article/413f93e1c7f8443587cb82d3c8c3e710)
- </br>[钱正在变成纸，工薪族越来越穷了!](http://100000p.com/article/7e5fb1ec50cf436b8d35c9225ffb77fe)
- </br>[Cuckoo Filter：设计与实现](http://100000p.com/article/ff13c23152234f78ac359dd940346834)
- </br>[谈谈广告平台的竞价原理：GFP,GSP,VCG](http://100000p.com/article/32ccc9b159bd4883978c09944196131f)
- </br>[预算平滑(Budget Smooth)是怎样花钱的？](http://100000p.com/article/4b8399d2b3da419e931ab6f0a5e7486a)
- </br>[创业团队如何避免走入KPI的陷阱？](http://100000p.com/article/546966c2f840432b9324365fdfd49e6a)
- </br>[万恶的kpi](http://100000p.com/article/02893fbb4056494d90091175a6678675)
- </br>[关于 Facebook NewsFeed，看这一篇就够了！](http://100000p.com/article/7ab69127272b470fba514d95646d41b2)
- </br>[互联网DSP广告系统架构及关键技术解析](http://100000p.com/article/9ccd83c66dc94b32997ea790b54bb5d7)
- </br>[考上好大学学IT是不是穷人家孩子晋级中产唯一出路？](http://100000p.com/article/8cae45745b494855a76989eaf8811cdd)
- </br>[互联网变现与计算广告](http://100000p.com/article/0092e4d97d2b4a21a584948e6a2649dd)
- </br>[从技术到产品，转型的这一年我明白了很多道理_36氪](http://100000p.com/article/51bf03f0efc6460a9beb4ea5f78e334a)
- </br>[雅虎发布Omid更新 旨在为HBase提供事务处理支持-CSDN.NET](http://100000p.com/article/f5ab4839145d46dcbacf324022be112d)
- </br>[她为什么不想发生初次性行为](http://100000p.com/article/430fe40a8d4b44419358ca87817d63e7)
- </br>[我的程序员未婚夫](http://100000p.com/article/393612f17df346dea5f17aa7dc120956)
- </br>[为什么程序员的业余项目大多都死了？](http://100000p.com/article/9507a7de47e94e4eb7c797b99f01eaa1)
- </br>[回忆童年](http://100000p.com/article/aad7d336e64c456a8bbfb8f54deb8c63)
- </br>[撰写合格的REST API – 码农网](http://100000p.com/article/51e426915099492582bc937de36336c6)
- </br>[千万别理那个苦追你多年的人](http://100000p.com/article/3fe4591eeae64b698818e2ebfb30676a)
- </br>[Polyvore Remix](http://100000p.com/article/beed9ad86367402481e71ec9cead3228)
- </br>[越贫困，越无力](http://100000p.com/article/a702b73fb03d4642a8e7668dc4de29cf)
- </br>[从整理房间谈我的产品修炼之路](http://100000p.com/article/5089afdb9b5b4ef299e06fea96bf4269)
- </br>[如何隐藏自己的程序员气息](http://100000p.com/article/72b10d879d2349d8b79db8b559c9efe9)
- </br>[青梅竹马是一种怎样的体验？](http://100000p.com/article/e5f864d71cfe44b4990e8eac9d3597a0)
- </br>[不投简历，如何获得月薪2万的工作](http://100000p.com/article/0b01671dd7cd47c0857cf873be5f84b8)
- </br>[亿级用户下的新浪微博平台架构](http://100000p.com/article/7044b50c4c5648d09be140c7353ad1c6)
- </br>[顶级风投First Round Capital对创业者的30个建议](http://100000p.com/article/5ef9a3ed46ac44639692fd29161fc971)
- </br>[淘宝内部分享：怎么跳出MySQL的10个大坑](http://100000p.com/article/f0b2fb14042c43b3925b58c8fb95a29b)
- </br>[Web API设计方法论](http://100000p.com/article/3ff6a4a07a7a4e6c8190e03ef4076762)
- </br>[杜蕾斯的广告文案](http://100000p.com/article/c98647e4da0e466cbbc0ab951bbcd6f6)
- </br>[爬虫技术浅析](http://100000p.com/article/f1d88730e04149a197557c6db6bf40fb)
- </br>[硅谷里的外星人:纵观Reddit十年风雨路（下）](http://100000p.com/article/393645a4e35b46d6add73d7763a06736)
- </br>[硅谷里的外星人：纵观Reddit十年风雨路（上）](http://100000p.com/article/250a17de536144008d16c73e4285c215)
- </br>[为什么长尾数据的翻页技术实现复杂](http://100000p.com/article/bde1c35c81324a06b84390354efe32e1)
- </br>[理解MySQL——索引与优化](http://100000p.com/article/8ea1b359e66a4e53bb92121924a7d776)
- </br>[如何拯救社交产品的时间线焦虑？](http://100000p.com/article/92f12aaf46b04b68bf73a304266b4bb9)
- </br>[浅谈"用力不用脑"](http://100000p.com/article/10cd0e6e1a424f34b44b0c6c8a394817)
- </br>[你理解大话西游片尾那句“他好像一条狗”吗？如果不能理解，那就是没看懂。](http://100000p.com/article/67a6bcf8893d4fe196413d5b76108962)
- </br>[冷暴力分手8个阶段](http://100000p.com/article/b7834207e97044cc9afb3c1530459a79)
- </br>[大数据量的算法](http://100000p.com/article/c4a6368dbb49412e83a20230392665a4)
- </br>[利用Neo4j对电影评论进行深度学习情感分析](http://100000p.com/article/07d6f79953174710bc5b2522385ef22a)
- </br>[详解Google Authenticator工作原理](http://100000p.com/article/a25382e743ed488eafbf914879a2e186)
- </br>[浅析Ad Exchange广告交易模式](http://100000p.com/article/3de6b153df2f450fa81b63844a7dacf6)
- </br>[完美是毒](http://100000p.com/article/60ef0e4405d841c5b81329cc6e5116ce)
- </br>[miguelfreitas/twister-core · GitHub](http://100000p.com/article/a4c69c9e4c37435389cbb9ef844c0ac3)
- </br>[android实现通过浏览器点击链接打开本地应用（APP）并拿到浏览器传递的数据](http://100000p.com/article/7e119d1ec88a44418d6456d755d09c5c)
- </br>[你和一个人越亲密，会越多看到他的疲惫](http://100000p.com/article/96fbc5585472462f845ab1581fcf394a)
- </br>[一个备胎的自我修养](http://100000p.com/article/39e9146ae9a648e790a0e2b91a6f52d4)
- </br>[唱歌永远不在调——你患了“失歌症” | 科学人](http://100000p.com/article/0034761b77f74215b1d57c41a42b2f4d)
- </br>[一个7年老员工的离职总结：如何打造一个最强大的“自我”](http://100000p.com/article/55bf367545294df0872e8aede1e2c1bf)
- </br>[辞职时，老板害怕你知道的事儿](http://100000p.com/article/3470854983cd479595f2a47b5d513ae2)
- </br>[四个级别的“自由”程序员](http://100000p.com/article/7272a5a5ec8048e5935459fc9739ccdd)
- </br>[微博推荐算法简述](http://100000p.com/article/18964ab1846a4a28adb8df7a528ded5f)
- </br>[经期性行为，到底行不行？ | 科学人 | 果壳网 科技有意思](http://100000p.com/article/78604ffcc3a94974990ca0ba59508527)
- </br>[社交网络不要只顾自己赚钱，给用户也分点儿？](http://100000p.com/article/d1c04a9b3d8f4cf8b875b2102f1f6ceb)
- </br>[android 简析自定义布局、布局的执行流程_村长_新浪博客](http://100000p.com/article/d12f4f1f6afb4a5bbff83180befcf9df)
- </br>[微博推荐引擎体系结构简述](http://100000p.com/article/9eee4b469b1a44808460f0904fcc4326)
- </br>[560亿PV+7.3亿用户，Reddit是如何做到的？-CSDN.NET](http://100000p.com/article/370c61a39b5f4c7284bfc6300aca62e6)
- </br>[好的产品经理是怎样炼成的？](http://100000p.com/article/712d93a1248740e59f270bab96dee8fa)
- </br>[面试技巧](http://100000p.com/article/16c50321baac41b08c82cfca374d45bd)
- </br>[你会因文字而爱上一个人吗](http://100000p.com/article/ca92e56d5e594dcf8c6cb1b1fa510ed5)
- </br>[AndroidAnnotations一个可以让你的android代码更加简洁的框架](http://100000p.com/article/b4131730231f4a4094a40e044252f5b9)
- </br>[深刻解析我作为程序员辞职创业的原因](http://100000p.com/article/a78853b2720a45c589abb721e3b66c63)
- </br>[由Google员工开源的graph database，go语言开发](http://100000p.com/article/0fb789ea0a4a41a4993f4f40477e29ef)
- </br>[古人怎么过夜生活的？ - 看点 -  妞博网 -  Niubo.cc](http://100000p.com/article/dd8fecbef44b4b0c9b03757eb4d1aeb6)
- </br>[做一个自由勤劳的手艺人](http://100000p.com/article/d8a9e6d6d7024e2fa0b746f090d50b0a)
- </br>[Spark：一个高效的分布式计算系统](http://100000p.com/article/dbe9cf6bc24e4102a1d62e8f98136f70)
- </br>[屌丝人生始于加班](http://100000p.com/article/99fe7b3f988e48d9a8754c740f99bbac)
- </br>[打破信息焦虑，如何处理信息的宽面和窄面？](http://100000p.com/article/575b7af81fdd4d72828126c914b8bfc6)
- </br>[什么吃掉了你的执行力？在浮躁中求解](http://100000p.com/article/f532e8a50a15472397380844551be3f2)
- </br>[创业故事：我们在办公室睡了6个月...但还是失败了](http://100000p.com/article/a84b326956d64aeda8a093f8d97814da)
- </br>[如何在网上保持完全匿名？](http://100000p.com/article/b5284de6ac0e439f808f0a935c078d8d)
- </br>[为什么机器学习广泛的用在谷歌的广告系统中，而很少用在搜索排序中？](http://100000p.com/article/690548b061fa4a6096e9a3ca307ce3ee)
- </br>[我为什么几天就辞职 | 简书](http://100000p.com/article/df277386730241839c12fa26ae9d8e50)
- </br>[创业者的抑郁症，不是个小问题  |  TechCrunch 中国](http://100000p.com/article/9fd351cd242c4e54a2b1a27b9fc93aa1)
- </br>[Netty系列之Netty可靠性分析](http://100000p.com/article/1ec4a34a9e6a4731aad013ae845903e8)
- </br>[响应式网站设计原则](http://100000p.com/article/6ff74d2910ef44a0bfd7b6c3c43b848e)
- </br>[为炮友正名](http://100000p.com/article/88bea958f1494960a6555d092880549c)
- </br>[不做7件事，提高生产力 | 36氪](http://100000p.com/article/24021c1cd4ac49629e49dfda87f72501)
- </br>[GoogleGlass界面设计指南](http://100000p.com/article/9a51182ed49046b587f08ad251d1f0d1)
- </br>[并不是所有的程序员都适合做技术管理](http://100000p.com/article/eff9fbabffab4b2395c69ec747af2f14)
- </br>[如何高效使用亚马逊EC2之服务可用性与数据存储](http://100000p.com/article/3947342132944520816c73eb0e49360c)
- </br>[《The Swift Programming Language》中文版](http://100000p.com/article/3cc4929fe7cb4b21861e4a4ceab141ac)
- </br>[提供互联网服务，一个不起眼但可能也是一千载难逢的机遇-CSDN.NET](http://100000p.com/article/36c01c248916442484b8397445624988)
- </br>[次时代交互原型神器Origami档案](http://100000p.com/article/279620dcbc0d49978e14e72ab1639756)
- </br>[互联网不缺海量缺精准，精准信息付费是未来吗？_读懂_钛媒体网](http://100000p.com/article/de83304178a44c4f80fe79e53dac6334)
- </br>[第四代互联网：新媒体的身份认同 | 雷锋网](http://100000p.com/article/7ea4681041284709ba72fd3b4bc4a5b2)
- </br>[统治世界的十大算法](http://100000p.com/article/2f26fe707c9d4a0791de8234647702fa)
- </br>[作为一个程序员，你的进步完全取决于你自己](http://100000p.com/article/13892ec3f9334670a4d9196ba643e35a)
- </br>[Twitter的RPC框架Finagle简介](http://100000p.com/article/c2cf6ced85914d5baa05a5d0d9810177)
- </br>[管中窥豹：从心理诉求看社交产品](http://100000p.com/article/f6566eacdf9744eaaa0c78d8ba5c8836)
- </br>[我所经历的“余额宝”的那些故事-CSDN.NET](http://100000p.com/article/38b7a3f37f664190990bbbfc09677ae5)
- </br>[老男人有的，你都会有。](http://100000p.com/article/98588d22739347b2a7fd1e1560ef2bc3)
- </br>[基于Spring打造简单高效通用的异步任务处理系统](http://100000p.com/article/e7577d26df62480381c487ab4a72e627)
- </br>[应对APP臃肿化-腾讯ISUX](http://100000p.com/article/22d8ee1c1abf4ad5896cdfdd9cde0ebc)
- </br>[巨头也作恶：谷歌们如何左右用户的数字生活_网易科技](http://100000p.com/article/a1c0bfc680674f9bae0f6b201c2a4046)
- </br>[Maven常用插件](http://100000p.com/article/b0ef558729e1432daf74c86cc21c7a0f)
- </br>[如何写出更好的Java代码 ](http://100000p.com/article/8bc76d0fb4ca4fd5910e4375bd1af740)
- </br>[Spring中使用classpath加载配置文件浅析](http://100000p.com/article/4ea8f5dc55ea4137b68fe0b239c09958)
- </br>[前端不为人知的一面——前端冷知识集锦 - SegmentFault](http://100000p.com/article/2cccd4e7519e407abdfc20111e1cf558)
- </br>[Medium iOS版应用上线iPad，依旧只提供阅读功能 | 36氪](http://100000p.com/article/94ef7a9c7f2a4b0394c1513291d223fb)
- </br>[马斯克回顾创业之初：和女友睡办公室沙发|马斯克|创业|特斯拉_业界_新浪科技_新浪网](http://100000p.com/article/be9d0d9f13ec4f2ca280515ecac55af9)
- </br>[淘宝的软肋，电商的救赎，与CRM的机遇——和“数云”创始人宋向平聊天  | 36氪](http://100000p.com/article/e4a608b3e6c74b8590627999845ad717)
- </br>[赚零用：又一个碎片化劳务众包平台，强调任务的轻态化 | 36氪](http://100000p.com/article/c8a8a67d75484735a29238f8bb66aed0)
- </br>[找个有趣的人共度此生--百度百家](http://100000p.com/article/808b17d954b04dc38e606b308670352c)
- </br>[未来的个性化资讯阅读会是怎样？ --百度百家](http://100000p.com/article/79401720a32c434e831641c74345c253)
- </br>[信息入口的新闻客户端如何盈利？--百度百家](http://100000p.com/article/9ce1ac3e7ffe4e10af5f7843d9e79e06)
- </br>[谷歌招聘新职员的五大标准_第1页_福布斯中文网](http://100000p.com/article/03ae0b2b2aff426bbd3ff7917a115415)
- </br>[百万用户规模的系统如何扩展-CSDN.NET](http://100000p.com/article/095cc4f4d40d41619b54d0a8197cb030)
- </br>[我为什么要看衰内容的个性化推荐？_网易科技](http://100000p.com/article/2e1ab8c6710445eba2d0403b3d08ecd5)
- </br>[如何做到每天写代码？-CSDN.NET](http://100000p.com/article/d89e3b6ac1f8402785b2fa24f81c550b)
- </br>[如何使用Elasticsearch使Kiln的搜索速度提升了1000倍](http://100000p.com/article/4e2b02e4c695419c8bccaf13331692e3)
- </br>[Airbnb的管理之道：产品设计的点评策略与技巧-CSDN.NET](http://100000p.com/article/408811904b2a4ce4883db0edb49ade75)
- </br>[Manhattan，Twitter规模的实时、多租户分布式数据库-CSDN.NET](http://100000p.com/article/7fe435b3d7de447a8060391f5c712965)
- </br>[JAVAC 命令详解 - Jeff - 博客园](http://100000p.com/article/307fcfa020774b7bb875ecdfdf6fc7bb)
- </br>[Reddit的评论排序新算法](http://100000p.com/article/8abae6d24d014f1ab53a48559c8497f7)
- </br>[NYT Now逆势而为：挑战Facebook](http://100000p.com/article/dfa7a7ce78214f4db7467b434a72435a)
- </br>[传统社区如何减弱在移动端上的水土不服？做“结构化博客社区”可能是一个办法 | 36氪](http://100000p.com/article/804c9de7e8bf46a088eaad6cd42d6dd6)
- </br>[理解创客-CSDN.NET](http://100000p.com/article/0c17ad6fa7d7407bada36c800d32c778)
- </br>[我为何看好国内的类Secret应用？ | 36氪](http://100000p.com/article/3a3608dfd00546829ae0014cee87b029)
- </br>[揭秘：Flipboard精美的阅读页面是这样一步一步做出来的 | 36氪](http://100000p.com/article/f5687712717c491a9e6dfac8ceebd642)
- </br>[设计移动App的十大技巧-CSDN.NET](http://100000p.com/article/571c834e9c5942d2ad14df029050d8e8)
- </br>[这才叫设计：看Medium如何精雕细琢下划线 | 36氪](http://100000p.com/article/880c0299f305475d83a1466acb2bc715)
- </br>[2014年最实用的十大HTML5开发工具-CSDN.NET](http://100000p.com/article/75ff650226be4267a749066fd72634bc)
- </br>[Spark独门秘籍：打造结构一体化、功能多元化的高效数据流水线-CSDN.NET](http://100000p.com/article/198cc8de498b47298954376ce4cc546c)
- </br>[研究人员：Pileup漏洞，让逾十亿Android设备存潜在危险-CSDN.NET](http://100000p.com/article/5a33d25a49fb41f390d6475c861f9a6e)
- </br>[为什么Android Wear能统领智能手表领域？-CSDN.NET](http://100000p.com/article/857fa645ebe54d00a645e91054fbc14f)
- </br>[Java 8简明教程 - ImportNew](http://100000p.com/article/6cc84541d94843f7be44f8f60258e0d2)
- </br>[十大技术，十家机构，从行业制高点一览大数据-CSDN.NET](http://100000p.com/article/b5e98bb29daa4ca78f57c1a788220037)
- </br>[[推荐系统] 推荐系统对外服务接口解决方案 - 鱼松 - 博客园](http://100000p.com/article/6f9a367215a843dabc2be881eb460efd)
- </br>[HBase在内容推荐引擎系统中的应用-CSDN.NET ](http://100000p.com/article/12106018bd594157854fc936ab7240e3)
- </br>[首席工程师揭秘：LinkedIn大数据后台是如何运作的-CSDN.NET ](http://100000p.com/article/d6751d439906423b95018ff39a68b95a)
- </br>[标签个性化数据在推荐排序中的应用](http://100000p.com/article/041141d8c53f489b855e6247d766cbb2)
- </br>[你的感觉如何？你的电脑知道！-CSDN.NET ](http://100000p.com/article/3b3631db8e0549f6b2ab2cd9defde408)
- </br>[Rust语言：安全地并发-CSDN.NET ](http://100000p.com/article/ac7819c4c3d543acacec5e8a56449c89)
- </br>[无限猴子定理真的可以应用 随机敲打游戏指令也能破关_IT新闻_博客园](http://100000p.com/article/f9dc973571b74b89a9155c1671bd10fc)
- </br>[全透明、可折叠，平板电脑概念机是这样的-CSDN.NET ](http://100000p.com/article/6c1afbf15eee42b8906d3d70871458bf)
- </br>[HUVr飞天滑板？引爆社交网络的恶作剧 | 36氪](http://100000p.com/article/9739a4147b154afa97a3909bfeec5d64)
- </br>[曾获创新工场投资的互联网垂直招聘平台内推网推招聘者认证服务，将情感化招聘进行到底 | 36氪](http://100000p.com/article/cef5eda0bb0842ff9982d49233e85f71)
- </br>[由智能硬件向宠物私密社交网络转型？汪星人智能项圈Whistle增加类Path社交模块 | 36氪](http://100000p.com/article/c3f5c0ef409f494e801b0dada592fcdf)
- </br>[找个更佳姿势挑战Linkedin：基于关系链计算的招聘应用“脉脉”上线Feed流，由强工具属性切入社](http://100000p.com/article/04260b9bf0694e24897a5bbebba9e894)
- </br>[Netflix：使用大数据驱动业务决策](http://100000p.com/article/c0b40f05b85a43a4a621484e3dcb6170)
- </br>[Google的下一个五年计划 - TECH2IPO创见](http://100000p.com/article/482f150cd22d40e4817d0cad1c53468e)
- </br>[在AWS上使用GPU实现分布式神经网络-CSDN.NET ](http://100000p.com/article/7649c7b819fe4e478a4cf1d99add1ff0)
- </br>[为什么像素游戏Flappy Bird能成为美国区App Store免费榜冠军？ | 36氪](http://100000p.com/article/ba98841480fc4a68b4dae4e1e6c3d9d5)
- </br>[老美如何用八个月打造月流量上亿个人站_读懂_钛媒体网](http://100000p.com/article/5db0e77ac0194bd6bf53e5933f0ade17)
- </br>[支撑过万亿音乐事件的数据分析系统-CSDN.NET ](http://100000p.com/article/4ccbfe116ac64bf08ac9aa9cea7bf21f)
- </br>[
-
-租个女友回家过年靠谱吗，有什么风险？ - 知乎
-
-](http://100000p.com/article/700aec832cc54744ab7b0d4495a84a52)
- </br>[全栈工程师会是未来的发展趋势吗？-CSDN.NET ](http://100000p.com/article/427e4e75e1484606a99f070b0f194704)
- </br>[利用ElasticSearch和Redis检索和存储十亿信息-CSDN.NET ](http://100000p.com/article/c1f8cdc8242049d3bdc7cb08e2fb2f3c)
- </br>[  Netflix 是如何推荐电影的 - 爱范儿 · Beats of Bits](http://100000p.com/article/316642a0ba804cf8bf2e5f71d37ce795)
- </br>[我们是否需要REST的替代品？](http://100000p.com/article/b1c553dc41ee444686635e0438a90310)
- </br>[朝九晚五并不适合脑力劳动者 | 外刊IT评论网](http://100000p.com/article/fac47b95a5264051b64a26ddd26ff58a)
- </br>[谷歌推送iOS版Google+更新 新增高分辨率媒体备份功能_Google Plus_cnBeta.](http://100000p.com/article/5961b048cbcd4471a44806d02064a11d)
- </br>[FlashDevelop.org - View topic - FlashDevelop 4.5.2](http://100000p.com/article/59b009701a6848a38b2db0a6b43ad954)
- </br>[大多数人不行动 | 外刊IT评论网](http://100000p.com/article/f43093cea2f146df8281543f76aad892)
- </br>[初创IT公司里开发者最容易犯的九种错误-CSDN.NET ](http://100000p.com/article/ff27bda83dbd4076a45ed53a8f27ffef)
- </br>[各式各样的极品程序员，你属于哪一种-CSDN.NET ](http://100000p.com/article/2f05fc65c18b42329a8aa5e7ead43e21)
- </br>[辞掉你的工作，去开发一个应用：我的创业故事 | 外刊IT评论网](http://100000p.com/article/7f89f4356e4c45cbb2cd59e5e5d18719)
- </br>[莉诺达斯 - 有趣的角色扮演与卡片收集对战网页游戏 - Linodas.com](http://100000p.com/article/22045943a737457c9b1831d0f7ec88eb)
- </br>[Google推出个性化街景地图制作工具，来给Google Tour Builder加料的？ - IT](http://100000p.com/article/cb91ce4c0b3948b4b186cf5b33ebb5d3)
- </br>[程序人生的四个象限和两条主线 | 方糖气球](http://100000p.com/article/3555ce511861480c824418b2b039e9f5)
- </br>[基于知识链结构的社交网络 | 扯氮集--上海魏武挥的博客](http://100000p.com/article/2ebbce5d94514516bf8745018ebf5fe3)
- </br>[长时间工作意味着什么 - 博客 - 伯乐在线](http://100000p.com/article/195cc641fc114e7b94232a5d34b9f401)
- </br>[被诅咒的程序员的七宗罪 | 外刊IT评论网](http://100000p.com/article/33c779d7306d4d54a05f3f5f047fbc25)
- </br>[Google新专利类似“微博僵尸”，让机器为你提供回复建议 |PingWest中文网](http://100000p.com/article/0e80c593e12b4fdb92e502004b050fa0)
- </br>[世上本无路，勇敢做从未被做过的事 | 36氪](http://100000p.com/article/15446a87f4d64197923a581eb03d69fd)
- </br>[软件天才与技术民工 - bitfan（数字世界一凡人）的专栏
-        - 博客频道 - C](http://100000p.com/article/1db11fa6273f438dacce89614345d2c8)
- </br>[为何即使没什么质量的博客也能让我们更聪明-CSDN.NET ](http://100000p.com/article/77ea51fa8034458ea40b0ca29721cde5)
- </br>[Waze推出明星语音导航功能，营销、营收两不误 |PingWest中文网](http://100000p.com/article/2a27154d3f1b4b2cbde294ab8ea6bbd2)
- </br>[走近Google基于SDN的B4网络-CSDN.NET ](http://100000p.com/article/1e6de085988f44cfaef592855442c17f)
- </br>[谷歌深度学习系统超预期 人类已无法经理解电脑想法_爱活网 Evolife.cn](http://100000p.com/article/b079c91a923444b297d8e3a4e5a9bbf6)
- </br>[稳定版 Chrome OS 支援移动程式栏和 Braille 萤幕等](http://100000p.com/article/7d3171e1bfc141afad52a75c0968e613)
- </br>[基于用户行为数据进行持续的产品创新 - 陆其明's Blog
-        - 博客频道 - C](http://100000p.com/article/a55c9587af83416aa7653bec879b3259)
- </br>[Google正在开发Chrome应用集成开发环境助开发者开发更多Chrome应用 | 36氪](http://100000p.com/article/041109a37d294bb78a65a5f71fbe13cd)
- </br>[Google的创新九原则 | 36氪](http://100000p.com/article/2c97e71d1e4341d98ff77ecd565cfdb4)
- </br>[
-黑客志
-|
-那些应该时刻牢记的事
-](http://100000p.com/article/dfe8c58e2aa942d5af158d4b0a0c49e2)
- </br>[建造量子计算机的蓝图-CSDN.NET ](http://100000p.com/article/615b63f8628149be9acf9f2cb62b0370)
- </br>[维京世界末日开始倒计时 于14年2月22日降临_警告!_cnBeta.COM](http://100000p.com/article/d662cc07f5094f9e9f3482772f567118)
- </br>[Facebook和Google如何激发工程师的创造力-精进学堂](http://100000p.com/article/0f0eb33d429142abacf12b5ec26a761a)
- </br>[UX设计程序的五个谬论-CSDN.NET ](http://100000p.com/article/b65c0011833548009b767a627a3b5af7)
- </br>[开发者是如何提升技能水平的-CSDN.NET ](http://100000p.com/article/e29893c93f7740dfb7e02d34c40c16f3)
- </br>[搞设计，是听从直觉，还是听从数据？ | 36氪](http://100000p.com/article/590557d4d44a49dca6ff3e535137d297)
- </br>[GraphLab:新的面向机器学习的并行框架 - cs870101的专栏
-        - 博客](http://100000p.com/article/d1b528b3072b4fb4b21475e8481abddf)
- </br>[搭建GraphLab集群总结 - Jason Koo - 博客园](http://100000p.com/article/7a4949095f344c49a97a79aec82a3ca1)
- </br>[算法为王：且看Mac Mini如何超越1636节点的Hadoop-CSDN.NET ](http://100000p.com/article/0066b8a9e64a4591bcddd9b328b488a5)
- </br>[利用Spring Data Neo4j搭建推荐系统-CSDN.NET ](http://100000p.com/article/7ce83b154d0a42a09d345e5f4d202507)
- </br>[Spring Data Neo4j简介](http://100000p.com/article/653fa1021b2d440d86d4846c8467e805)
- </br>[透过KitKat，Android或与ChromeOS融合？-CSDN.NET ](http://100000p.com/article/fe10a3f69c824492bb6a33fa5460fbd1)
- </br>[
-    Loser应该知道的6个残酷人生事实（血泪翻译）
-](http://100000p.com/article/9bfa2da5a94f464c8e2195a4363daee2)
- </br>[马化腾：互联网的下7个爆发点在哪？ | 极客公园](http://100000p.com/article/84f7a02ea8ae4cc88aa91e0f49931677)
- </br>[我的阴道独白](http://100000p.com/article/c42a028c72f64e7c8fca2286c2220190)
- </br>[汽车3分钟变飞机 “天行者”明年上市_cnBeta 硬件新闻_cnBeta.COM](http://100000p.com/article/bcd62c118a42440d8d9d96fbe04d1307)
- </br>[顶级程序员的10条最佳实践 | 36氪](http://100000p.com/article/96bef902c1a7428c909bed4034e700b8)
- </br>[Martin Jetpack个人飞行器带你提前感受未来世界 - 也米|前沿创意设计资讯](http://100000p.com/article/d6c9c1a32c094f90beafdd53ac9af92c)
- </br>[【C-cup性知识向】阴道有话说 | 性 情小组 | 果壳网 科技有意思](http://100000p.com/article/3811b7b4504a4589843f1e8290c28f61)
- </br>[下一代NoSQL：最终一致性的末日？-CSDN.NET ](http://100000p.com/article/255030d8f6f14bedae759dfd616053bf)
- </br>[百万用户时尚分享网站feed系统扩展实践-CSDN.NET ](http://100000p.com/article/75caea0c71bc470db7eaa8d060d06fdf)
- </br>[open source, recommendation system](http://100000p.com/article/0363f2def7a14cc9bcebd5cb2c86cce4)
- </br>[不只是技术！成为IT经理必备的十大软技能-CSDN.NET ](http://100000p.com/article/7222df53be5f4c19bcecb4a4ba284bb2)
- </br>[把你的树莓派打造成一台谷歌云打印机 - 极客范 - GeekFan.net](http://100000p.com/article/b4cd1e4e4753496da51e8e6c4aa9c460)
- </br>[AngularJS优化最佳实践：从1200ms缩减到35ms-CSDN.NET ](http://100000p.com/article/467be82d5ad6441c8a6f0a4ce8c34fcd)
- </br>[Cookie时代终结 苹果谷歌微软抢占新标准滩头_网络软件_cnBeta.COM](http://100000p.com/article/46d8edffda104825905429c39ced399f)
- </br>[2300mAh也不可小觑 Nexus 5续航能力初测_LG_cnBeta.COM](http://100000p.com/article/01f8004795924ea4b4e5a1449bd7ceb0)
- </br>[摩托罗拉将在11月13日发布Moto G智能手机_Motorola 摩托罗拉_cnBeta.COM](http://100000p.com/article/9220009d100d42fe9da9b4129a6a2952)
- </br>[  复活诺基亚 N900 - 爱范儿 · Beats of Bits](http://100000p.com/article/dd1643e815e74daaacb9d362d20aee34)
- </br>[JavaScript框架的开发现状和生态环境](http://100000p.com/article/1f0a10de6e924f34a381b2083b344552)
- </br>[数学常数e的含义 - 阮一峰的网络日志](http://100000p.com/article/b4e5160ca756421a8a73e60837cfc240)
- </br>[摩托罗拉推开源硬件平台计划Project Ara-CSDN.NET ](http://100000p.com/article/c37e4b5cf8c44148a1bcd74da734cc69)
- </br>[运维人员需要有产品观-CSDN.NET ](http://100000p.com/article/b3b0a9541b81443b8334a26ccf96e230)
- </br>[深度思考Java成员变量的初始化 - 百恼的专栏 - 博客频道 - CSDN.NET](http://100000p.com/article/e952378283054ed3b91c679bcf77dc69)
- </br>[每天一个linux命令（15）：tail 命令 - peida - 博客园](http://100000p.com/article/75a308e45c8a431b83976c918e6a21a4)
- </br>[漫画：为什么不能打断程序员？ - 博客 - 伯乐在线](http://100000p.com/article/87c84d13ae4d4f65aa30686d14f0023a)
- </br>[为什么英语对软件开发者很重要-CSDN.NET ](http://100000p.com/article/f9d13c9a6ec44c44b23025281de24bdc)
- </br>[个人开发者如何开发优质应用-CSDN.NET ](http://100000p.com/article/32cf8d728ee04756b3805f55be194e81)
- </br>[Vim - 标签 - feichexia - 博客园](http://100000p.com/article/a366eedf1fc64bde914ab62ca33a305a)
- </br>[Facebook发明新算法预测用户约会对象是谁：准确率高达60%_TechWeb](http://100000p.com/article/c327053e37e7413185e78376742d83de)
- </br>[量产谈判正在进行时：谷歌手表或比Google Glass先上市-CSDN.NET ](http://100000p.com/article/afbb6096b0e14475959d2e5b9519a4b9)
- </br>[继续紧逼Oracle：在占领谷歌等公司之后，MariaDB迈向企业端-CSDN.NET ](http://100000p.com/article/e982aef7783c40d1b4895f247f123010)
- </br>[从测试数据来看Node.js和Java EE的性能区别-CSDN.NET ](http://100000p.com/article/3ce28ec698914f54a3fb819ffb3c2b1a)
- </br>[Facebook支撑万亿Post搜索背后的技术窥探-CSDN.NET ](http://100000p.com/article/47410e87761e425ca41da49f735d4ddc)
- </br>[360推儿童卫士手环，你怎么看？-CSDN.NET ](http://100000p.com/article/a06e0c4b777b4e3dac7a0857c926554d)
- </br>[让普通耳机变身脉搏监控器?-搜狐IT](http://100000p.com/article/555508f006d84e2bbb48ba4c97601cdd)
- </br>[外媒吐槽苹果iOS 7七大短板_Apple 苹果_cnBeta.COM](http://100000p.com/article/3c4ca83e8d0c46cb91900673f7870314)
- </br>[苹果营造软件免费趋势 欲撼动微软现金牛根基_Apple 苹果_cnBeta.COM](http://100000p.com/article/2522475a952846b89fb8ad2efe77a1b2)
- </br>[阿里巴巴CTO王坚：开发者精神是云计算与移动互联网的“信仰”-CSDN.NET ](http://100000p.com/article/ca844c03d84f4da598f34186c616db74)
- </br>[IE 11支持基于网页的文件编辑_Internet Explorer_cnBeta.COM](http://100000p.com/article/b0a8513104b5452c89c44035ae376eef)
- </br>[Google海上浮动数据中心构想可能已经实现_Google](http://100000p.com/article/38b12297ab734bbfae4ea88c6ccea60f)
- </br>[高频服务圈用户，低频服务谋利润——家政O2O寻找盈利模式困难，小跑生活向全品类家庭服务扩张 | 36](http://100000p.com/article/5f7e0bb787864a54a68624ce05e3ce9c)
- </br>[我跳槽是因为他们的显示器更大 | 外刊IT评论网](http://100000p.com/article/2875ea90bbea4cbb974f6c458488e551)
- </br>[前端MV*框架的意义 «  Sina App Engine Blog](http://100000p.com/article/6f8518d78e38489fbf3f328116f81bfa)
- </br>[[简讯]新代码编辑器Lime发布 号称Sublime Text的开源实现-CSDN.NET ](http://100000p.com/article/6848b599778049e0871f376d964b11c4)
- </br>[远见卓识，像CEO一样编写代码！-CSDN.NET ](http://100000p.com/article/bc32fda64671428cbe929d135a1c5d80)
- </br>[为何程序员完成最后20%的工作需要的时间跟之前的80%一样多？ | 36氪](http://100000p.com/article/6ff695f0f6cc4cbea97e4792b48ffabe)
- </br>[Mainframe2 让你的浏览器变成强大的工作站 | 36氪](http://100000p.com/article/db735cabeeb0414090b980d7bbd3f99e)
- </br>[给你的游戏努力一点回报，以Kiip为目标的Vtime想做一家有品牌的游戏实物奖励平台 | 36氪](http://100000p.com/article/00f00cf70d7343f6ae23bd33e67f53e1)
- </br>[Touch Room：距离千尺，情系一指 | 36氪](http://100000p.com/article/fc6c8aba7cf64b9190abeb1f759382de)
- </br>[友盟发布四款新产品：社会化组件、消息推送、游戏分析和云加速，推“一站式解决方案” | 36氪](http://100000p.com/article/3fb7ca54b4834a9d97eea85337d0a9b7)
- </br>[Google以2300万美元收购Android加速器DroidBooster的母公司FlexyCor](http://100000p.com/article/36186f61707646ee933329c6d9e76934)
- </br>[据说，微软也在做自己的Glass | 36氪](http://100000p.com/article/2aa9c3a5ee324b2ba1aae74f5460d8d5)
- </br>[MySQL修改编码设置及乱码问题 - 米拉 - 博客频道 - CSDN.NET](http://100000p.com/article/c7876c07ec3046d9981e2aee35e1b3c4)
- </br>[北京白领200万香河买房 每天往返140公里上班-搜狐新闻](http://100000p.com/article/80837a73a0d74b3e82c35788153d7140)
- </br>[爸爸去哪儿-爸爸去哪儿在线观看 - 搜狐视频](http://100000p.com/article/ae5ef26485294ae1a3cb4c5fbaff13de)
- </br>[房产税试点扩大成共识 或将向存量房渗透-搜狐财经](http://100000p.com/article/54cc5de0340d435fa0ba03dc93ac0a7a)
- </br>[刘诗诗抵沪口罩遮面 似为新戏试镜见偷拍快闪-娱乐频道图片库-大视野-搜狐](http://100000p.com/article/eddd13b98d434707ab33a671e1178d8a)
- </br>[这些改装全是鸡肋 细数那些白花的冤枉钱-搜狐汽车](http://100000p.com/article/e4aa30746fa0475988f01f19adc00184)
- </br>[一份《保证书》背后的猫腻 - 高勤荣的博客 - 我的搜狐](http://100000p.com/article/dd27bca0bd6e43a2ae901e417bd7117f)
- </br>[美国火箭升空完成“第八跳” 准确降落到发射台-搜狐军事频道](http://100000p.com/article/b95416492ffe4abdb918f1cc5546c377)
- </br>[日媒称三艘中国海警船在钓鱼岛附近海域航行 -搜狐军事频道](http://100000p.com/article/07adf2c7881941e1bf1a3f7b99f308c4)
- </br>[李克强听取工商联民资万言书 高含金量项目将开放-搜狐财经](http://100000p.com/article/fe28c850e5c54176b2d507a8f5401dcd)
- </br>[习近平会见加拿大总督约翰斯顿-搜狐新闻](http://100000p.com/article/2deac723837342c7922e9b88606a0654)
- </br>[CSDN.NET - 全球最大中文IT社区，为IT专业技术人员提供最全面的信息传播和服务平台](http://100000p.com/article/d606a87a9c5a431ab6cb88b6a018ac76)
- </br>[CSDN.NET - 全球最大中文IT社区，为IT专业技术人员提供最全面的信息传播和服务平台](http://100000p.com/article/9d16f4eec64b4f9f95b5771c26b8389d)
- </br>[Storm又获东风，Hortonworks计划将其整合到Hadoop企业版-CSDN.NET ](http://100000p.com/article/e0af84c693e5438291fae84f751d4449)
- </br>[前端工程师 - 子游文化传媒有限公司 - 开源中国社区](http://100000p.com/article/f57c9b4a72794b42a50b0ba199402a94)
- </br>[美国航天局公布月球全景式自转视频_cnBeta 科学探索_cnBeta.COM](http://100000p.com/article/b18ba0bd260a4332bea8150dc3ca932b)
- </br>[鲍尔默：在微软最大的遗憾是错失手机_cnBeta 人物 - Steve Ballmer_cnBeta](http://100000p.com/article/a169c7fd97444a7badb55a4e7d2d85e1)
- </br>[谷歌最新Chrome OS build中加入启动、锁定、解锁、关机音乐_Google Chrome ](http://100000p.com/article/6b8b75c1ed3240bea349bcf14893fc24)
- </br>[山寨Lightning线缆已经无法在iOS 7系统下正常工作_Apple iPhone_cnBeta](http://100000p.com/article/ac1fcb7c82f64250b9d1a7bbbf8b0d0b)
- </br>[广东电信新版iPhone开售火爆 里皮成首个用户_Apple iPhone_cnBeta.COM](http://100000p.com/article/451f56b8e23b49ef9ef766c498824ac3)
- </br>[Nvidia发布GeForce 327.23 WHQL驱动 兼容Windows 8.1_NVIDIA](http://100000p.com/article/6108c7fe46614473b037688365d56a61)
- </br>[[图集]Apple Store新布置、排队以及第一批拿到iPhone 5S的人_Apple 苹果_c](http://100000p.com/article/2037b4f0290e4e4b908d921e9ddb74a2)
- </br>[还是原来的味道 iPhone5s iPhone5c第一时间上手体验_Apple 苹果_cnBeta.](http://100000p.com/article/ab09c47edf984f18b4311b0b52c89c8b)
- </br>[[图表]皮尤：美国超一半用户使用手机访问互联网_the United States 美国_cnBet](http://100000p.com/article/42eee097d0114004a5cfe4252d7adc62)
- </br>[[图]iPhone 5s/5c今日开卖 三里屯火爆不再_Apple iPhone_cnBeta.CO](http://100000p.com/article/7d444e8b0644486db4d3af78e1edf784)
- </br>[雷德蒙德园区遭遇断电 微软暂停金融分析大会_Microsoft 微软_cnBeta.COM](http://100000p.com/article/96ecc3c18c9d47008f50e04c70c1b271)
- </br>[加拿大政府希望黑莓能自力更生_BlackBerry 黑莓_cnBeta.COM](http://100000p.com/article/319e2b3b191241e29c34d34597ee30a6)
- </br>[微软：在教育和政府领域 Windows设备绝对优于Android设备_Microsoft 微软_cn](http://100000p.com/article/63f5e5941b6946ffbd794738be1d9cd8)
- </br>[前端工程与性能优化（下）：静态资源管理与模板框架](http://100000p.com/article/3530169d1e354a809c49b4bb44a47e48)
- </br>[移动版 YouTube 将会在 11 月加入真正脱机播放功能](http://100000p.com/article/4a3cd4b6f5e04e1ebe816ef7e66295c3)
- </br>[联通新iPhone首销：网上预定用户2小时后收到货](http://100000p.com/article/45c27ad2cb62427c873f86bab156b15f)
- </br>[搜狗和腾讯刀剑相向的往事-月光博客](http://100000p.com/article/11d373f3a7f34fa68c109052429e3a37)
- </br>[Java 8开发者预览版发布](http://100000p.com/article/54c875a298c74b4198c0854a9b1f3e56)
- </br>[韩国 doodle：韩国感恩节 2013 | 谷奥——探寻谷歌的奥秘](http://100000p.com/article/a4ce12ba72db4be2a151304cf9d3ba34)
- </br>[[组图]华为荣耀3开箱图集_Huawei 华为_cnBeta.COM](http://100000p.com/article/8453baa241fa4d7090233a9006a30d0a)
- </br>[电信联通今日同步发售iPhone 5s/5c_Apple iPhone_cnBeta.COM](http://100000p.com/article/afb55481e7e24f759114f8b200cb59f7)
- </br>[为什么Web App的运行速度慢-CSDN.NET ](http://100000p.com/article/d33d9cc8014f4fa6af57fc3ddc1eaf8d)
- </br>[SAE的资源、安全隔离与Container-CSDN.NET ](http://100000p.com/article/19cb1cd2114d496f8dda09634d60de87)
- </br>[社交网络招聘时代：智能手机如何影响招聘-CSDN.NET ](http://100000p.com/article/78f21a6e399e4af3b6f4103649b27d9c)
- </br>[美研制10倍音速飞行器：每次发射仅500万美元_cnBeta 科学探索_cnBeta.COM](http://100000p.com/article/22d8b2d54534427592ec4f6d997b2c21)
- </br>[苹果发布会后的冷思考，64位芯片为开发者带来了什么？-CSDN.NET ](http://100000p.com/article/2e6a9ea76e9a4a0283bcb666a18a8953)
- </br>[豌豆荚：“应用内搜索”是打通移动互联网最具竞争力的入口-CSDN.NET ](http://100000p.com/article/f1121a7b9e9d4404a6118a7b31f10864)
- </br>[中兴Geek评测：高性价比的英特尔处理器智能机-CSDN.NET ](http://100000p.com/article/6cbe61549a4a4a969563bfbfe1935c22)
- </br>[为什么说UX设计师的黄金时代已来临？-CSDN.NET ](http://100000p.com/article/cba79e0596f04432871b4a8e4b4daabb)
- </br>[前谷歌Android开源项目主管Queru加盟雅虎-CSDN.NET ](http://100000p.com/article/9cca1e52b5e84351a93f8b3282389cce)
- </br>[对AngularJS进行性能调优的7个建议-CSDN.NET ](http://100000p.com/article/083dd7748e024561ac6e491a1e3ad058)
- </br>[[多图]iOS 7再爆锁屏漏洞 可绕过密码查看照片等资料_Apple iPhone_cnBeta.C](http://100000p.com/article/75afc10932a64afe83536c1f3c66a275)
- </br>[Telstra因取消Lumia 1020定单而向消费者提供免费Lumia 520_NOKIA 诺基亚](http://100000p.com/article/70e1c353fc6b4c0abbfc1a80dd208245)
- </br>[Windows 8.1售价出来了！分别是119.99美元、199.99美元-CSDN.NET ](http://100000p.com/article/d7b1008156fc47668e3a7c851d31e53e)
- </br>[iPhone5s/5c来了 运营商与黄牛怎么看？_cnBeta 视点观察_cnBeta.COM](http://100000p.com/article/691d59d2b79a47f880b1f91129588e24)
- </br>[惠普发布首款Windows 8.1平板Omni 10_Hewlett-Packard 惠普_cnBe](http://100000p.com/article/b63fc0d1d2f449b8b9ea427db1c9360a)
- </br>[泄露图显示罗技将发布专用于iOS设备的游戏配件ClamCase_Logitech 罗技_cnBeta](http://100000p.com/article/6a8109cc4399444989a8c1dbb39d25a4)
- </br>[  来看看哪些应用适配了 iOS 7 风格设计 - 爱范儿 · Beats of Bits](http://100000p.com/article/20bdf86a8da341a99bfe5e6cccd64043)
- </br>[[科技新報]iPhone 5s 記憶體只有 1GB這點免懷疑，不過是更省電的 LPDDR3 ，兼論採](http://100000p.com/article/ab14fa39271e4f2b92d36340aaa4e275)
- </br>[亚马逊德国配送中心员工再度罢工_电子商务 - B2C / B2B_cnBeta.COM](http://100000p.com/article/52227381841d40509c53f0fe0c8d3e06)
- </br>[雅虎更新My Yahoo主页：更具现代感_Yahoo! 雅虎_cnBeta.COM](http://100000p.com/article/c4861354d0f94ad39b6e096a143e3a2a)
- </br>[美国检察官称赞 iOS 7 激活锁功能 鼓励用户速速升级_Apple iPhone_cnBeta.C](http://100000p.com/article/c61255e4b65b475e8205cf5f3dd5a891)
- </br>[A Man's Gut Brews Its Own Beer and Gets Him Drunk ](http://100000p.com/article/da8903371247475482a23bb39d0cc64a)
- </br>[电信新iPhone今早全球首发 前50名降800元](http://100000p.com/article/ca875ef9f11f4b0e9592778bec20ac58)
- </br>[Ubuntu Touch10月到来 Android Nexus将成首批运行设备_Ubuntu_cnB](http://100000p.com/article/411ff174225b4dc29964f7616df93407)
- </br>[Congresswoman Uses Steak, Vodka, And Caviar To Ham](http://100000p.com/article/4f88f8c415c84a998178407e3d660ae3)
- </br>[《侠盗5》发布第一天全球收入8亿美元 45万PC玩家不满_cnBeta 精品软件_cnBeta.COM](http://100000p.com/article/f8a25157e4734cc98b8db0b481b54bad)
- </br>[土豪我们做朋友 | 极客早知道2013年9月20日 | 极客公园](http://100000p.com/article/e1c61ad152b64333a92b62918570e7c7)
- </br>[美国一校区聘网监公司监视学生网络行为 - TECH2IPO创见](http://100000p.com/article/c639f8dbd88b4d4b82c81efbf2f58786)
- </br>[[组图]飞利浦研发出按钮可触控的遥控器_PHILIPS 飞利浦_cnBeta.COM](http://100000p.com/article/c426755e56dc44919e1a487c9a4b95f3)
- </br>[惠普发布四款Android平板电脑 涵盖7-10英寸_Hewlett-Packard 惠普_cnBeta.COM](http://100000p.com/article/a8b396c4d2644f3a89e2894d8006ee9b)
- </br>[任天堂前社长去世 享年85岁](http://100000p.com/article/88b004a714e24708814d06f34f0c5642)
- </br>[手机芯片战争：英特尔苦追ARM 联发科挑战高通_cnBeta 硬件新闻_cnBeta.COM](http://100000p.com/article/7f1765f88f5248c191088d23244f5e97)
- </br>[  第一台集成 Leap Motion 的笔记本诞生了 - 爱范儿 · Beats of Bits](http://100000p.com/article/5037fe5f38db47b3a624b8bdc66a2293)
- </br>[Pinterest向用户发公开信解释广告策略 | 动点科技](http://100000p.com/article/7ecebde4e0e345f793fc8394967e01b1)
- </br>[《财富》40岁以下商界明星梅耶尔第一_cnBeta 人物_cnBeta.COM](http://100000p.com/article/5ee737d4d0454fdb83fddd862561d4ea)
- </br>[诺基亚仍在继续Android机开发工作 富士康已输送1万多部原型机_NOKIA 诺基亚_cnBeta.COM](http://100000p.com/article/1360bc4070bf4e76b57d9b9295972a7e)
- </br>[一机玩遍所有老式游戏卡 Retron5游戏机12月发布_游戏_cnBeta.COM](http://100000p.com/article/3271a7897da94406a0187a15633cca5a)
- </br>[美国检察官称赞 Apple iOS 7 的 Activation Lock，促请升级](http://100000p.com/article/0ed977f68f784646b4892120467a4cd6)
- </br>[《时代》：意欲对抗死神的谷歌_Google / 谷歌_cnBeta.COM](http://100000p.com/article/0deb26996ce54ed180abbb2c63fcc1f1)
- </br>[[组图]未来汽车：人工智能与自动驾驶_cnBeta 硬件新闻_cnBeta.COM](http://100000p.com/article/e685a8370dfc416eb8ae727c81b57366)
- </br>[[图表]一天的时间 iOS 7安装率就已升至33.13%_Apple 苹果_cnBeta.COM](http://100000p.com/article/e9871a59d42843e6b49ee846953d12aa)
- </br>[纽约第五大道Apple Store门外排队果粉人数不断增加_Apple iPhone_cnBeta.COM](http://100000p.com/article/dcdda69d37e64c66bdf5d5de8ffadabe)
- </br>[Ruby On Rails实践现状调查结果](http://100000p.com/article/e503fbe7f4c3476f881b82f3d1bbf719)
- </br>[Sony 打算在今个财务年度内卖出 500 万部 PlayStation 4](http://100000p.com/article/da2b5310a15948f491127166ada27d32)
- </br>[索尼警告擅自解锁Z1将使相机无法使用_SONY 索尼_cnBeta.COM](http://100000p.com/article/c52059922163440594f2b3a81660b3cd)
- </br>[妖言惑众 19期：红花要有绿叶配 - TECH2IPO创见](http://100000p.com/article/ccefe94188be4a0d88441c184ace3547)
- </br>[  新 PSVita 上手汇总：轻、薄是最多感受 - 爱范儿 · Beats of Bits](http://100000p.com/article/bbc2d1fe9f27474dbe5fdad46f960ddf)
- </br>[  三星遭抛弃，新 Nexus 10 将由华硕代工？ - 爱范儿 · Beats of Bits](http://100000p.com/article/bd42d12ae41449ebb2cd380506be8f5b)
- </br>[PlayStation 4「熔岩红」、「海浪蓝」无线控制器及 PS Vita 限量版动眼看，加上各项](http://100000p.com/article/840f48b0da3a4b1faefb2d187a5b292a)
- </br>[[视频]BBC新闻主播误把一包A4纸当成iPad_Media 全球媒体_cnBeta.COM](http://100000p.com/article/962a3b20d6f94202a27236087358aaa7)
- </br>[世界上唯一的海底实验室重新开启_cnBeta 科学探索_cnBeta.COM](http://100000p.com/article/a707c69222ac43219a477556abdd72e3)
- </br>[GEAK Watch智能手表初体验_cnBeta 硬件新闻_cnBeta.COM](http://100000p.com/article/71b3347d4d324b849a304e3c40a81257)
- </br>[Kogan 推出第二款 Agora 智慧型手机](http://100000p.com/article/8265031a48844995a53026ff777a95bb)
- </br>[Java 7 Update 40 发布，新增任务控制和规则集支持](http://100000p.com/article/588b2ba5493148bbb3b3367989ae513b)
- </br>[谷歌发布新扁平化Logo 更改首页导航栏设计_Google / 谷歌_cnBeta.COM](http://100000p.com/article/5233e5aa8ee743759a365618736cba71)
- </br>[Apple 开始让 Windows 用户以 Chrome 和 Firefox 同步 iCloud 上的书签](http://100000p.com/article/4dad7c149ca24ba3a634feb461a8fcf0)
- </br>[Solidot | 微信会将密码暴露给攻击者](http://100000p.com/article/496da24155d740f7b3aa25f79c93177c)
- </br>[马云的“赎身”梦魇:香港美国难接受合伙人制度_cnBeta 人物 - 马云_cnBeta.COM](http://100000p.com/article/3635f30ae58e4e8ebccc1234863abcb9)
- </br>[谷歌宣布QuickOffice正式免费 附送10GB空间_Google / 谷歌_cnBeta.COM](http://100000p.com/article/3034c493455343cab42ba6ec0d7fb714)
- </br>[国行诺基亚520及港行620,820,920已开始更新GDR2+Amber固件_NOKIA 诺基亚_](http://100000p.com/article/2f695fab14144d949fe693716bad1bf0)
- </br>[这样才能引爆易信！ | 极客公园](http://100000p.com/article/2670cae940024217baff448bbf878831)
- </br>[惠普发布Spectre 13超极本 搭载高分触屏超宽触摸板_Hewlett-Packard 惠普_cnBeta.COM](http://100000p.com/article/18f05e7a2ee04e30a661aa659c640a92)
- </br>[  小米电视是什么电视？ - 爱范儿 · Beats of Bits](http://100000p.com/article/0d690019a45645cc8ed6a06972ff989a)
- </br>[一个在清华附近蹲了17年的男人 | 极客公园](http://100000p.com/article/043376c4c2134efbadab803bef63faa3)
- </br>[诺基亚推迟新款手机发布时间 或于10月发布_NOKIA 诺基亚_cnBeta.COM](http://100000p.com/article/316ca31cbc414d0380bb28717c5e3252)
- </br>[子游博客](http://100000p.com/article/b03c308894854c7797e9d7bbfcb35675)
- </br>[Moto X开发版$649.99在售 支持Verizon或GSM网络_Motorola 摩托罗拉_cnBeta.COM](http://100000p.com/article/a6053e286d5c44b9870029c9708eb242)
- </br>[苹果的口述历史：伟大商业故事背后的设计传说_Apple 苹果_cnBeta.COM](http://100000p.com/article/6b46ffc58284403289e1dffeb23e251f)
- </br>[雅虎股价重返31美元 杨致远可以一吐心中闷气了？_Yahoo! 雅虎_cnBeta.COM](http://100000p.com/article/763d40cf16964a1e9c78d61bae41b210)
- </br>[苹果iPad mini 2背壳再曝光 或也有三种颜色_Apple iPad_cnBeta.COM](http://100000p.com/article/70d4e94bcf9344dba48efaed5f0170b0)
- </br>[微软：公司55%的收入来自企业级用户_Microsoft 微软_cnBeta.COM](http://100000p.com/article/ce029cd0d176470f92df01a479512f31)
- </br>[尼尔森收视率统计明年将纳入平板和智能机的收视数据_通信技术_cnBeta.COM](http://100000p.com/article/784ec3a68b4f41f0b4221185b41dffad)
- </br>[[图]为迎新机 苹果零售店开始“更换新装”_Apple 苹果_cnBeta.COM](http://100000p.com/article/a47595b107ee48d38a604f23ef64cece)
- </br>[iOS版Google Wallet应用发布_Google / 谷歌_cnBeta.COM](http://100000p.com/article/b8c7c89946734cccbebc5b031af411dd)
- </br>[Android 和 iOS 版 Quickoffice 都变成免费的了](http://100000p.com/article/e38470cae7a34c778dce3e561722d845)
- </br>
+[无服务器架构-从使用场景分析其6大特性](http://192.168.0.102:8080/article/2c9089175a236208015a238eebfd0000)</br>
+ [基于SpringBoot和SpringCloud实现微服务架构学习(一)-Spring框架介绍](http://192.168.0.102:8080/article/2c9089175a1d42b1015a21c210560035)</br>
+ [基于SpringBoot和SpringCloud实现微服务架构学习(二)](http://192.168.0.102:8080/article/2c9089175a1d42b1015a21be49410031)</br>
+ [基于SpringBoot和SpringCloud实现微服务架构学习(三)](http://192.168.0.102:8080/article/2c9089175a1d42b1015a21bbfe68002d)</br>
+ [基于SpringBoot和SpringCloud实现微服务架构学习(四)](http://192.168.0.102:8080/article/2c9089175a1d42b1015a21b16c680027)</br>
+ [基于SpringBoot和SpringCloud实现微服务架构学习(五)-Docker总结](http://192.168.0.102:8080/article/2c9089175a1d42b1015a21afdcd70023)</br>
+ [基于SpringBoot和SpringCloud实现微服务架构学习(六)-Docker应用](http://192.168.0.102:8080/article/2c9089175a1d42b1015a21ad1f11001e)</br>
+ [微服务应用-基于SpringCloud和Reactor构建网上商店微服务(上)](http://192.168.0.102:8080/article/2c9089175a1d42b1015a21a9230f001a)</br>
+ [微服务应用-基于SpringCloud和Reactor构建网上商店微服务(下)](http://192.168.0.102:8080/article/2c9089175a1d42b1015a21a035530014)</br>
+ [微服务应用-基于SpringCloud和Docker构建电影推荐微服务](http://192.168.0.102:8080/article/2c9089175a1d42b1015a219d1785000f)</br>
+ [微服务要素-十二要素（TheTwelveFactors）](http://192.168.0.102:8080/article/2c9089175a1d42b1015a2196c153000b)</br>
+ [人一生中至少要有两次冲动，奋不顾身的爱情，说走就走的旅行](http://192.168.0.102:8080/article/2c9089175a1d42b1015a1dd72ddf0000)</br>
+ [看不见的竞争之把握意见领袖](http://192.168.0.102:8080/article/2c9089175a180b13015a1810f0500000)</br>
+ [支撑微博千亿调用的轻量级RPC框架：Motan](http://192.168.0.102:8080/article/2c9089175a0c83d7015a0dee95a00010)</br>
+ [微博基于Docker的混合云平台设计与实践](http://192.168.0.102:8080/article/2c9089175a0c83d7015a0dd6481b0007)</br>
+ [爱油科技基于SpringCloud的微服务实践](http://192.168.0.102:8080/article/2c9089175a0c83d7015a0c8855d90000)</br>
+ [前端不为人知的一面](http://192.168.0.102:8080/article/2c90891759fe4a14015a03809e580000)</br>
+ [什么是工程师文化？](http://192.168.0.102:8080/article/2c90891759f8f1e90159fe23b450002d)</br>
+ [年终总结&算法数据的思考&结尾彩蛋](http://192.168.0.102:8080/article/2c90891759f8f1e90159fc309d940015)</br>
+ [制作一款App需要的成本](http://192.168.0.102:8080/article/2c90891759f8f1e90159fc2f2ab30013)</br>
+ [产品经理的段位——说说腾讯的产品职级](http://192.168.0.102:8080/article/2c90891759f8f1e90159fc2d7adf0011)</br>
+ [互联网广告作弊十八般武艺(下)](http://192.168.0.102:8080/article/2c90891759f8f1e90159f9922060000f)</br>
+ [互联网广告作弊十八般武艺(上)](http://192.168.0.102:8080/article/2c90891759f8f1e90159f991f917000d)</br>
+ [一个理工狗的“约炮”经历](http://192.168.0.102:8080/article/2c90891759f8f1e90159f902d273000b)</br>
+ [100个天使用户，足以引爆一个产品](http://192.168.0.102:8080/article/2c90891759f8f1e90159f90283060009)</br>
+ [谈谈财务自由](http://192.168.0.102:8080/article/2c90891759f8f1e90159f8fd27400001)</br>
+ [《哈佛商业评论》史上最佳文章：你事业的上限究竟在哪里？](http://192.168.0.102:8080/article/2c90891759e9868c0159e989e2980000)</br>
+ [谈谈创业公司的技术选型](http://192.168.0.102:8080/article/c886979d9ba44585af70659f72b86d81)</br>
+ [吴声：API思维和次平台，这两个词让内容创业天翻地覆](http://192.168.0.102:8080/article/7cc5f031a98848fcb2c9d0d17128ff98)</br>
+ [离职总结 | 如何做个好员工？](http://192.168.0.102:8080/article/640582e5f89a4bdc985b8a627d2cbcba)</br>
+ [创业者的噩梦-为什么没人能帮忙。](http://192.168.0.102:8080/article/0fb86fbf04e04999addae73f58ba0f8b)</br>
+ [程序员，你为什么值这么多钱？](http://192.168.0.102:8080/article/ba877aaf2f294acebd2e7aa7d47df308)</br>
+ [PM可以从谷歌Sprint学到的设计工作法](http://192.168.0.102:8080/article/60c38fdde57843a98228aa5cb6045fe1)</br>
+ [吴军博士硅谷第一封来信：不做伪工作者](http://192.168.0.102:8080/article/3e94ca74a0854170818f8c5af1a83b65)</br>
+ [月入十万：大部分人努力的方向都错了](http://192.168.0.102:8080/article/aee70b980f7d41b98c9757e97a3c33c8)</br>
+ [你没穷过你不懂](http://192.168.0.102:8080/article/8722443c30ab47efb7cd921befb38f09)</br>
+ [二十几岁，最重要的是富养自己](http://192.168.0.102:8080/article/413f93e1c7f8443587cb82d3c8c3e710)</br>
+ [钱正在变成纸，工薪族越来越穷了!](http://192.168.0.102:8080/article/7e5fb1ec50cf436b8d35c9225ffb77fe)</br>
+ [CuckooFilter：设计与实现](http://192.168.0.102:8080/article/ff13c23152234f78ac359dd940346834)</br>
+ [谈谈广告平台的竞价原理：GFP,GSP,VCG](http://192.168.0.102:8080/article/32ccc9b159bd4883978c09944196131f)</br>
+ [预算平滑(BudgetSmooth)是怎样花钱的？](http://192.168.0.102:8080/article/4b8399d2b3da419e931ab6f0a5e7486a)</br>
+ [创业团队如何避免走入KPI的陷阱？](http://192.168.0.102:8080/article/546966c2f840432b9324365fdfd49e6a)</br>
+ [万恶的kpi](http://192.168.0.102:8080/article/02893fbb4056494d90091175a6678675)</br>
+ [关于FacebookNewsFeed，看这一篇就够了！](http://192.168.0.102:8080/article/7ab69127272b470fba514d95646d41b2)</br>
+ [互联网DSP广告系统架构及关键技术解析](http://192.168.0.102:8080/article/9ccd83c66dc94b32997ea790b54bb5d7)</br>
+ [考上好大学学IT是不是穷人家孩子晋级中产唯一出路？](http://192.168.0.102:8080/article/8cae45745b494855a76989eaf8811cdd)</br>
+ [互联网变现与计算广告](http://192.168.0.102:8080/article/0092e4d97d2b4a21a584948e6a2649dd)</br>
+ [从技术到产品，转型的这一年我明白了很多道理_36氪](http://192.168.0.102:8080/article/51bf03f0efc6460a9beb4ea5f78e334a)</br>
+ [雅虎发布Omid更新旨在为HBase提供事务处理支持-CSDN.NET](http://192.168.0.102:8080/article/f5ab4839145d46dcbacf324022be112d)</br>
+ [她为什么不想发生初次性行为](http://192.168.0.102:8080/article/430fe40a8d4b44419358ca87817d63e7)</br>
+ [我的程序员未婚夫](http://192.168.0.102:8080/article/393612f17df346dea5f17aa7dc120956)</br>
+ [为什么程序员的业余项目大多都死了？](http://192.168.0.102:8080/article/9507a7de47e94e4eb7c797b99f01eaa1)</br>
+ [回忆童年](http://192.168.0.102:8080/article/aad7d336e64c456a8bbfb8f54deb8c63)</br>
+ [撰写合格的RESTAPI–码农网](http://192.168.0.102:8080/article/51e426915099492582bc937de36336c6)</br>
+ [千万别理那个苦追你多年的人](http://192.168.0.102:8080/article/3fe4591eeae64b698818e2ebfb30676a)</br>
+ [PolyvoreRemix](http://192.168.0.102:8080/article/beed9ad86367402481e71ec9cead3228)</br>
+ [越贫困，越无力](http://192.168.0.102:8080/article/a702b73fb03d4642a8e7668dc4de29cf)</br>
+ [从整理房间谈我的产品修炼之路](http://192.168.0.102:8080/article/5089afdb9b5b4ef299e06fea96bf4269)</br>
+ [如何隐藏自己的程序员气息](http://192.168.0.102:8080/article/72b10d879d2349d8b79db8b559c9efe9)</br>
+ [青梅竹马是一种怎样的体验？](http://192.168.0.102:8080/article/e5f864d71cfe44b4990e8eac9d3597a0)</br>
+ [不投简历，如何获得月薪2万的工作](http://192.168.0.102:8080/article/0b01671dd7cd47c0857cf873be5f84b8)</br>
+ [亿级用户下的新浪微博平台架构](http://192.168.0.102:8080/article/7044b50c4c5648d09be140c7353ad1c6)</br>
+ [顶级风投FirstRoundCapital对创业者的30个建议](http://192.168.0.102:8080/article/5ef9a3ed46ac44639692fd29161fc971)</br>
+ [淘宝内部分享：怎么跳出MySQL的10个大坑](http://192.168.0.102:8080/article/f0b2fb14042c43b3925b58c8fb95a29b)</br>
+ [WebAPI设计方法论](http://192.168.0.102:8080/article/3ff6a4a07a7a4e6c8190e03ef4076762)</br>
+ [杜蕾斯的广告文案](http://192.168.0.102:8080/article/c98647e4da0e466cbbc0ab951bbcd6f6)</br>
+ [爬虫技术浅析](http://192.168.0.102:8080/article/f1d88730e04149a197557c6db6bf40fb)</br>
+ [硅谷里的外星人:纵观Reddit十年风雨路（下）](http://192.168.0.102:8080/article/393645a4e35b46d6add73d7763a06736)</br>
+ [硅谷里的外星人：纵观Reddit十年风雨路（上）](http://192.168.0.102:8080/article/250a17de536144008d16c73e4285c215)</br>
+ [为什么长尾数据的翻页技术实现复杂](http://192.168.0.102:8080/article/bde1c35c81324a06b84390354efe32e1)</br>
+ [理解MySQL——索引与优化](http://192.168.0.102:8080/article/8ea1b359e66a4e53bb92121924a7d776)</br>
+ [如何拯救社交产品的时间线焦虑？](http://192.168.0.102:8080/article/92f12aaf46b04b68bf73a304266b4bb9)</br>
+ [浅谈"用力不用脑"](http://192.168.0.102:8080/article/10cd0e6e1a424f34b44b0c6c8a394817)</br>
+ [你理解大话西游片尾那句“他好像一条狗”吗？如果不能理解，那就是没看懂。](http://192.168.0.102:8080/article/67a6bcf8893d4fe196413d5b76108962)</br>
+ [冷暴力分手8个阶段](http://192.168.0.102:8080/article/b7834207e97044cc9afb3c1530459a79)</br>
+ [大数据量的算法](http://192.168.0.102:8080/article/c4a6368dbb49412e83a20230392665a4)</br>
+ [利用Neo4j对电影评论进行深度学习情感分析](http://192.168.0.102:8080/article/07d6f79953174710bc5b2522385ef22a)</br>
+ [详解GoogleAuthenticator工作原理](http://192.168.0.102:8080/article/a25382e743ed488eafbf914879a2e186)</br>
+ [浅析AdExchange广告交易模式](http://192.168.0.102:8080/article/3de6b153df2f450fa81b63844a7dacf6)</br>
+ [完美是毒](http://192.168.0.102:8080/article/60ef0e4405d841c5b81329cc6e5116ce)</br>
+ [miguelfreitas/twister-core·GitHub](http://192.168.0.102:8080/article/a4c69c9e4c37435389cbb9ef844c0ac3)</br>
+ [android实现通过浏览器点击链接打开本地应用（APP）并拿到浏览器传递的数据](http://192.168.0.102:8080/article/7e119d1ec88a44418d6456d755d09c5c)</br>
+ [你和一个人越亲密，会越多看到他的疲惫](http://192.168.0.102:8080/article/96fbc5585472462f845ab1581fcf394a)</br>
+ [一个备胎的自我修养](http://192.168.0.102:8080/article/39e9146ae9a648e790a0e2b91a6f52d4)</br>
+ [唱歌永远不在调——你患了“失歌症”|科学人](http://192.168.0.102:8080/article/0034761b77f74215b1d57c41a42b2f4d)</br>
+ [一个7年老员工的离职总结：如何打造一个最强大的“自我”](http://192.168.0.102:8080/article/55bf367545294df0872e8aede1e2c1bf)</br>
+ [辞职时，老板害怕你知道的事儿](http://192.168.0.102:8080/article/3470854983cd479595f2a47b5d513ae2)</br>
+ [四个级别的“自由”程序员](http://192.168.0.102:8080/article/7272a5a5ec8048e5935459fc9739ccdd)</br>
+ [微博推荐算法简述](http://192.168.0.102:8080/article/18964ab1846a4a28adb8df7a528ded5f)</br>
+ [经期性行为，到底行不行？|科学人|果壳网科技有意思](http://192.168.0.102:8080/article/78604ffcc3a94974990ca0ba59508527)</br>
+ [社交网络不要只顾自己赚钱，给用户也分点儿？](http://192.168.0.102:8080/article/d1c04a9b3d8f4cf8b875b2102f1f6ceb)</br>
+ [android 简析自定义布局、布局的执行流程_村长_新浪博客](http://192.168.0.102:8080/article/d12f4f1f6afb4a5bbff83180befcf9df)</br>
+ [微博推荐引擎体系结构简述](http://192.168.0.102:8080/article/9eee4b469b1a44808460f0904fcc4326)</br>
+ [560亿PV+7.3亿用户，Reddit是如何做到的？-CSDN.NET](http://192.168.0.102:8080/article/370c61a39b5f4c7284bfc6300aca62e6)</br>
+ [好的产品经理是怎样炼成的？](http://192.168.0.102:8080/article/712d93a1248740e59f270bab96dee8fa)</br>
+ [面试技巧](http://192.168.0.102:8080/article/16c50321baac41b08c82cfca374d45bd)</br>
+ [你会因文字而爱上一个人吗](http://192.168.0.102:8080/article/ca92e56d5e594dcf8c6cb1b1fa510ed5)</br>
+ [AndroidAnnotations一个可以让你的android代码更加简洁的框架](http://192.168.0.102:8080/article/b4131730231f4a4094a40e044252f5b9)</br>
+ [深刻解析我作为程序员辞职创业的原因](http://192.168.0.102:8080/article/a78853b2720a45c589abb721e3b66c63)</br>
+ [由Google员工开源的graphdatabase，go语言开发](http://192.168.0.102:8080/article/0fb789ea0a4a41a4993f4f40477e29ef)</br>
+ [古人怎么过夜生活的？-看点-妞博网-Niubo.cc](http://192.168.0.102:8080/article/dd8fecbef44b4b0c9b03757eb4d1aeb6)</br>
+ [做一个自由勤劳的手艺人](http://192.168.0.102:8080/article/d8a9e6d6d7024e2fa0b746f090d50b0a)</br>
+ [Spark：一个高效的分布式计算系统](http://192.168.0.102:8080/article/dbe9cf6bc24e4102a1d62e8f98136f70)</br>
+ [屌丝人生始于加班](http://192.168.0.102:8080/article/99fe7b3f988e48d9a8754c740f99bbac)</br>
+ [打破信息焦虑，如何处理信息的宽面和窄面？](http://192.168.0.102:8080/article/575b7af81fdd4d72828126c914b8bfc6)</br>
+ [什么吃掉了你的执行力？在浮躁中求解](http://192.168.0.102:8080/article/f532e8a50a15472397380844551be3f2)</br>
+ [创业故事：我们在办公室睡了6个月...但还是失败了](http://192.168.0.102:8080/article/a84b326956d64aeda8a093f8d97814da)</br>
+ [如何在网上保持完全匿名？](http://192.168.0.102:8080/article/b5284de6ac0e439f808f0a935c078d8d)</br>
+ [为什么机器学习广泛的用在谷歌的广告系统中，而很少用在搜索排序中？](http://192.168.0.102:8080/article/690548b061fa4a6096e9a3ca307ce3ee)</br>
+ [我为什么几天就辞职|简书](http://192.168.0.102:8080/article/df277386730241839c12fa26ae9d8e50)</br>
+ [创业者的抑郁症，不是个小问题|TechCrunch中国](http://192.168.0.102:8080/article/9fd351cd242c4e54a2b1a27b9fc93aa1)</br>
+ [Netty系列之Netty可靠性分析](http://192.168.0.102:8080/article/1ec4a34a9e6a4731aad013ae845903e8)</br>
+ [响应式网站设计原则](http://192.168.0.102:8080/article/6ff74d2910ef44a0bfd7b6c3c43b848e)</br>
+ [为炮友正名](http://192.168.0.102:8080/article/88bea958f1494960a6555d092880549c)</br>
+ [不做7件事，提高生产力|36氪](http://192.168.0.102:8080/article/24021c1cd4ac49629e49dfda87f72501)</br>
+ [GoogleGlass界面设计指南](http://192.168.0.102:8080/article/9a51182ed49046b587f08ad251d1f0d1)</br>
+ [并不是所有的程序员都适合做技术管理](http://192.168.0.102:8080/article/eff9fbabffab4b2395c69ec747af2f14)</br>
+ [如何高效使用亚马逊EC2之服务可用性与数据存储](http://192.168.0.102:8080/article/3947342132944520816c73eb0e49360c)</br>
+ [《TheSwiftProgrammingLanguage》中文版](http://192.168.0.102:8080/article/3cc4929fe7cb4b21861e4a4ceab141ac)</br>
+ [提供互联网服务，一个不起眼但可能也是一千载难逢的机遇-CSDN.NET](http://192.168.0.102:8080/article/36c01c248916442484b8397445624988)</br>
+ [次时代交互原型神器Origami档案](http://192.168.0.102:8080/article/279620dcbc0d49978e14e72ab1639756)</br>
+ [互联网不缺海量缺精准，精准信息付费是未来吗？_读懂_钛媒体网](http://192.168.0.102:8080/article/de83304178a44c4f80fe79e53dac6334)</br>
+ [第四代互联网：新媒体的身份认同|雷锋网](http://192.168.0.102:8080/article/7ea4681041284709ba72fd3b4bc4a5b2)</br>
+ [统治世界的十大算法](http://192.168.0.102:8080/article/2f26fe707c9d4a0791de8234647702fa)</br>
+ [作为一个程序员，你的进步完全取决于你自己](http://192.168.0.102:8080/article/13892ec3f9334670a4d9196ba643e35a)</br>
+ [Twitter的RPC框架Finagle简介](http://192.168.0.102:8080/article/c2cf6ced85914d5baa05a5d0d9810177)</br>
+ [管中窥豹：从心理诉求看社交产品](http://192.168.0.102:8080/article/f6566eacdf9744eaaa0c78d8ba5c8836)</br>
+ [我所经历的“余额宝”的那些故事-CSDN.NET](http://192.168.0.102:8080/article/38b7a3f37f664190990bbbfc09677ae5)</br>
+ [老男人有的，你都会有。](http://192.168.0.102:8080/article/98588d22739347b2a7fd1e1560ef2bc3)</br>
+ [基于Spring打造简单高效通用的异步任务处理系统](http://192.168.0.102:8080/article/e7577d26df62480381c487ab4a72e627)</br>
+ [应对APP臃肿化-腾讯ISUX](http://192.168.0.102:8080/article/22d8ee1c1abf4ad5896cdfdd9cde0ebc)</br>
+ [巨头也作恶：谷歌们如何左右用户的数字生活_网易科技](http://192.168.0.102:8080/article/a1c0bfc680674f9bae0f6b201c2a4046)</br>
+ [Maven常用插件](http://192.168.0.102:8080/article/b0ef558729e1432daf74c86cc21c7a0f)</br>
+ [如何写出更好的Java代码](http://192.168.0.102:8080/article/8bc76d0fb4ca4fd5910e4375bd1af740)</br>
+ [Spring中使用classpath加载配置文件浅析](http://192.168.0.102:8080/article/4ea8f5dc55ea4137b68fe0b239c09958)</br>
+ [前端不为人知的一面——前端冷知识集锦-SegmentFault](http://192.168.0.102:8080/article/2cccd4e7519e407abdfc20111e1cf558)</br>
+ [MediumiOS版应用上线iPad，依旧只提供阅读功能|36氪](http://192.168.0.102:8080/article/94ef7a9c7f2a4b0394c1513291d223fb)</br>
+ [马斯克回顾创业之初：和女友睡办公室沙发|马斯克|创业|特斯拉_业界_新浪科技_新浪网](http://192.168.0.102:8080/article/be9d0d9f13ec4f2ca280515ecac55af9)</br>
+ [淘宝的软肋，电商的救赎，与CRM的机遇——和“数云”创始人宋向平聊天|36氪](http://192.168.0.102:8080/article/e4a608b3e6c74b8590627999845ad717)</br>
+ [赚零用：又一个碎片化劳务众包平台，强调任务的轻态化|36氪](http://192.168.0.102:8080/article/c8a8a67d75484735a29238f8bb66aed0)</br>
+ [找个有趣的人共度此生--百度百家](http://192.168.0.102:8080/article/808b17d954b04dc38e606b308670352c)</br>
+ [未来的个性化资讯阅读会是怎样？--百度百家](http://192.168.0.102:8080/article/79401720a32c434e831641c74345c253)</br>
+ [信息入口的新闻客户端如何盈利？--百度百家](http://192.168.0.102:8080/article/9ce1ac3e7ffe4e10af5f7843d9e79e06)</br>
+ [谷歌招聘新职员的五大标准_第1页_福布斯中文网](http://192.168.0.102:8080/article/03ae0b2b2aff426bbd3ff7917a115415)</br>
+ [百万用户规模的系统如何扩展-CSDN.NET](http://192.168.0.102:8080/article/095cc4f4d40d41619b54d0a8197cb030)</br>
+ [我为什么要看衰内容的个性化推荐？_网易科技](http://192.168.0.102:8080/article/2e1ab8c6710445eba2d0403b3d08ecd5)</br>
+ [如何做到每天写代码？-CSDN.NET](http://192.168.0.102:8080/article/d89e3b6ac1f8402785b2fa24f81c550b)</br>
+ [如何使用Elasticsearch使Kiln的搜索速度提升了1000倍](http://192.168.0.102:8080/article/4e2b02e4c695419c8bccaf13331692e3)</br>
+ [Airbnb的管理之道：产品设计的点评策略与技巧-CSDN.NET](http://192.168.0.102:8080/article/408811904b2a4ce4883db0edb49ade75)</br>
+ [Manhattan，Twitter规模的实时、多租户分布式数据库-CSDN.NET](http://192.168.0.102:8080/article/7fe435b3d7de447a8060391f5c712965)</br>
+ [JAVAC命令详解-Jeff-博客园](http://192.168.0.102:8080/article/307fcfa020774b7bb875ecdfdf6fc7bb)</br>
+ [Reddit的评论排序新算法](http://192.168.0.102:8080/article/8abae6d24d014f1ab53a48559c8497f7)</br>
+ [NYTNow逆势而为：挑战Facebook](http://192.168.0.102:8080/article/dfa7a7ce78214f4db7467b434a72435a)</br>
+ [传统社区如何减弱在移动端上的水土不服？做“结构化博客社区”可能是一个办法|36氪](http://192.168.0.102:8080/article/804c9de7e8bf46a088eaad6cd42d6dd6)</br>
+ [理解创客-CSDN.NET](http://192.168.0.102:8080/article/0c17ad6fa7d7407bada36c800d32c778)</br>
+ [我为何看好国内的类Secret应用？|36氪](http://192.168.0.102:8080/article/3a3608dfd00546829ae0014cee87b029)</br>
+ [揭秘：Flipboard精美的阅读页面是这样一步一步做出来的|36氪](http://192.168.0.102:8080/article/f5687712717c491a9e6dfac8ceebd642)</br>
+ [设计移动App的十大技巧-CSDN.NET](http://192.168.0.102:8080/article/571c834e9c5942d2ad14df029050d8e8)</br>
+ [这才叫设计：看Medium如何精雕细琢下划线|36氪](http://192.168.0.102:8080/article/880c0299f305475d83a1466acb2bc715)</br>
+ [2014年最实用的十大HTML5开发工具-CSDN.NET](http://192.168.0.102:8080/article/75ff650226be4267a749066fd72634bc)</br>
+ [Spark独门秘籍：打造结构一体化、功能多元化的高效数据流水线-CSDN.NET](http://192.168.0.102:8080/article/198cc8de498b47298954376ce4cc546c)</br>
+ [研究人员：Pileup漏洞，让逾十亿Android设备存潜在危险-CSDN.NET](http://192.168.0.102:8080/article/5a33d25a49fb41f390d6475c861f9a6e)</br>
+ [为什么AndroidWear能统领智能手表领域？-CSDN.NET](http://192.168.0.102:8080/article/857fa645ebe54d00a645e91054fbc14f)</br>
+ [Java8简明教程-ImportNew](http://192.168.0.102:8080/article/6cc84541d94843f7be44f8f60258e0d2)</br>
+ [十大技术，十家机构，从行业制高点一览大数据-CSDN.NET](http://192.168.0.102:8080/article/b5e98bb29daa4ca78f57c1a788220037)</br>
+ [[推荐系统]推荐系统对外服务接口解决方案-鱼松-博客园](http://192.168.0.102:8080/article/6f9a367215a843dabc2be881eb460efd)</br>
+ [HBase在内容推荐引擎系统中的应用-CSDN.NET](http://192.168.0.102:8080/article/12106018bd594157854fc936ab7240e3)</br>
+ [首席工程师揭秘：LinkedIn大数据后台是如何运作的-CSDN.NET](http://192.168.0.102:8080/article/d6751d439906423b95018ff39a68b95a)</br>
+ [标签个性化数据在推荐排序中的应用](http://192.168.0.102:8080/article/041141d8c53f489b855e6247d766cbb2)</br>
+ [你的感觉如何？你的电脑知道！-CSDN.NET](http://192.168.0.102:8080/article/3b3631db8e0549f6b2ab2cd9defde408)</br>
+ [Rust语言：安全地并发-CSDN.NET](http://192.168.0.102:8080/article/ac7819c4c3d543acacec5e8a56449c89)</br>
+ [无限猴子定理真的可以应用随机敲打游戏指令也能破关_IT新闻_博客园](http://192.168.0.102:8080/article/f9dc973571b74b89a9155c1671bd10fc)</br>
+ [全透明、可折叠，平板电脑概念机是这样的-CSDN.NET](http://192.168.0.102:8080/article/6c1afbf15eee42b8906d3d70871458bf)</br>
+ [HUVr飞天滑板？引爆社交网络的恶作剧|36氪](http://192.168.0.102:8080/article/9739a4147b154afa97a3909bfeec5d64)</br>
+ [曾获创新工场投资的互联网垂直招聘平台内推网推招聘者认证服务，将情感化招聘进行到底|36氪](http://192.168.0.102:8080/article/cef5eda0bb0842ff9982d49233e85f71)</br>
+ [由智能硬件向宠物私密社交网络转型？汪星人智能项圈Whistle增加类Path社交模块|36氪](http://192.168.0.102:8080/article/c3f5c0ef409f494e801b0dada592fcdf)</br>
+ [找个更佳姿势挑战Linkedin：基于关系链计算的招聘应用“脉脉”上线Feed流，由强工具属性切入社](http://192.168.0.102:8080/article/04260b9bf0694e24897a5bbebba9e894)</br>
+ [Netflix：使用大数据驱动业务决策](http://192.168.0.102:8080/article/c0b40f05b85a43a4a621484e3dcb6170)</br>
+ [Google的下一个五年计划-TECH2IPO创见](http://192.168.0.102:8080/article/482f150cd22d40e4817d0cad1c53468e)</br>
+ [在AWS上使用GPU实现分布式神经网络-CSDN.NET](http://192.168.0.102:8080/article/7649c7b819fe4e478a4cf1d99add1ff0)</br>
+ [为什么像素游戏FlappyBird能成为美国区AppStore免费榜冠军？|36氪](http://192.168.0.102:8080/article/ba98841480fc4a68b4dae4e1e6c3d9d5)</br>
+ [老美如何用八个月打造月流量上亿个人站_读懂_钛媒体网](http://192.168.0.102:8080/article/5db0e77ac0194bd6bf53e5933f0ade17)</br>
+ [支撑过万亿音乐事件的数据分析系统-CSDN.NET](http://192.168.0.102:8080/article/4ccbfe116ac64bf08ac9aa9cea7bf21f)</br>
+ [租个女友回家过年靠谱吗，有什么风险？-知乎](http://192.168.0.102:8080/article/700aec832cc54744ab7b0d4495a84a52)</br>
+ [全栈工程师会是未来的发展趋势吗？-CSDN.NET](http://192.168.0.102:8080/article/427e4e75e1484606a99f070b0f194704)</br>
+ [利用ElasticSearch和Redis检索和存储十亿信息-CSDN.NET](http://192.168.0.102:8080/article/c1f8cdc8242049d3bdc7cb08e2fb2f3c)</br>
+ [Netflix是如何推荐电影的-爱范儿·BeatsofBits](http://192.168.0.102:8080/article/316642a0ba804cf8bf2e5f71d37ce795)</br>
+ [我们是否需要REST的替代品？](http://192.168.0.102:8080/article/b1c553dc41ee444686635e0438a90310)</br>
+ [朝九晚五并不适合脑力劳动者|外刊IT评论网](http://192.168.0.102:8080/article/fac47b95a5264051b64a26ddd26ff58a)</br>
+ [谷歌推送iOS版Google+更新新增高分辨率媒体备份功能_GooglePlus_cnBeta.](http://192.168.0.102:8080/article/5961b048cbcd4471a44806d02064a11d)</br>
+ [FlashDevelop.org-Viewtopic-FlashDevelop4.5.2](http://192.168.0.102:8080/article/59b009701a6848a38b2db0a6b43ad954)</br>
+ [大多数人不行动|外刊IT评论网](http://192.168.0.102:8080/article/f43093cea2f146df8281543f76aad892)</br>
+ [初创IT公司里开发者最容易犯的九种错误-CSDN.NET](http://192.168.0.102:8080/article/ff27bda83dbd4076a45ed53a8f27ffef)</br>
+ [各式各样的极品程序员，你属于哪一种-CSDN.NET](http://192.168.0.102:8080/article/2f05fc65c18b42329a8aa5e7ead43e21)</br>
+ [辞掉你的工作，去开发一个应用：我的创业故事|外刊IT评论网](http://192.168.0.102:8080/article/7f89f4356e4c45cbb2cd59e5e5d18719)</br>
+ [莉诺达斯-有趣的角色扮演与卡片收集对战网页游戏-Linodas.com](http://192.168.0.102:8080/article/22045943a737457c9b1831d0f7ec88eb)</br>
+ [Google推出个性化街景地图制作工具，来给GoogleTourBuilder加料的？-IT](http://192.168.0.102:8080/article/cb91ce4c0b3948b4b186cf5b33ebb5d3)</br>
+ [程序人生的四个象限和两条主线|方糖气球](http://192.168.0.102:8080/article/3555ce511861480c824418b2b039e9f5)</br>
+ [基于知识链结构的社交网络|扯氮集--上海魏武挥的博客](http://192.168.0.102:8080/article/2ebbce5d94514516bf8745018ebf5fe3)</br>
+ [长时间工作意味着什么-博客-伯乐在线](http://192.168.0.102:8080/article/195cc641fc114e7b94232a5d34b9f401)</br>
+ [被诅咒的程序员的七宗罪|外刊IT评论网](http://192.168.0.102:8080/article/33c779d7306d4d54a05f3f5f047fbc25)</br>
+ [Google新专利类似“微博僵尸”，让机器为你提供回复建议|PingWest中文网](http://192.168.0.102:8080/article/0e80c593e12b4fdb92e502004b050fa0)</br>
+ [世上本无路，勇敢做从未被做过的事|36氪](http://192.168.0.102:8080/article/15446a87f4d64197923a581eb03d69fd)</br>
+ [软件天才与技术民工-bitfan（数字世界一凡人）的专栏-博客频道-C](http://192.168.0.102:8080/article/1db11fa6273f438dacce89614345d2c8)</br>
+ [为何即使没什么质量的博客也能让我们更聪明-CSDN.NET](http://192.168.0.102:8080/article/77ea51fa8034458ea40b0ca29721cde5)</br>
+ [Waze推出明星语音导航功能，营销、营收两不误|PingWest中文网](http://192.168.0.102:8080/article/2a27154d3f1b4b2cbde294ab8ea6bbd2)</br>
+ [走近Google基于SDN的B4网络-CSDN.NET](http://192.168.0.102:8080/article/1e6de085988f44cfaef592855442c17f)</br>
+ [谷歌深度学习系统超预期人类已无法经理解电脑想法_爱活网Evolife.cn](http://192.168.0.102:8080/article/b079c91a923444b297d8e3a4e5a9bbf6)</br>
+ [稳定版ChromeOS支援移动程式栏和Braille萤幕等](http://192.168.0.102:8080/article/7d3171e1bfc141afad52a75c0968e613)</br>
+ [基于用户行为数据进行持续的产品创新-陆其明'sBlog-博客频道-C](http://192.168.0.102:8080/article/a55c9587af83416aa7653bec879b3259)</br>
+ [Google正在开发Chrome应用集成开发环境助开发者开发更多Chrome应用|36氪](http://192.168.0.102:8080/article/041109a37d294bb78a65a5f71fbe13cd)</br>
+ [Google的创新九原则|36氪](http://192.168.0.102:8080/article/2c97e71d1e4341d98ff77ecd565cfdb4)</br>
+ [黑客志|那些应该时刻牢记的事](http://192.168.0.102:8080/article/dfe8c58e2aa942d5af158d4b0a0c49e2)</br>
+ [建造量子计算机的蓝图-CSDN.NET](http://192.168.0.102:8080/article/615b63f8628149be9acf9f2cb62b0370)</br>
+ [维京世界末日开始倒计时于14年2月22日降临_警告!_cnBeta.COM](http://192.168.0.102:8080/article/d662cc07f5094f9e9f3482772f567118)</br>
+ [Facebook和Google如何激发工程师的创造力-精进学堂](http://192.168.0.102:8080/article/0f0eb33d429142abacf12b5ec26a761a)</br>
+ [UX设计程序的五个谬论-CSDN.NET](http://192.168.0.102:8080/article/b65c0011833548009b767a627a3b5af7)</br>
+ [开发者是如何提升技能水平的-CSDN.NET](http://192.168.0.102:8080/article/e29893c93f7740dfb7e02d34c40c16f3)</br>
+ [搞设计，是听从直觉，还是听从数据？|36氪](http://192.168.0.102:8080/article/590557d4d44a49dca6ff3e535137d297)</br>
+ [GraphLab:新的面向机器学习的并行框架-cs870101的专栏-博客](http://192.168.0.102:8080/article/d1b528b3072b4fb4b21475e8481abddf)</br>
+ [搭建GraphLab集群总结-JasonKoo-博客园](http://192.168.0.102:8080/article/7a4949095f344c49a97a79aec82a3ca1)</br>
+ [算法为王：且看MacMini如何超越1636节点的Hadoop-CSDN.NET](http://192.168.0.102:8080/article/0066b8a9e64a4591bcddd9b328b488a5)</br>
+ [利用SpringDataNeo4j搭建推荐系统-CSDN.NET](http://192.168.0.102:8080/article/7ce83b154d0a42a09d345e5f4d202507)</br>
+ [SpringDataNeo4j简介](http://192.168.0.102:8080/article/653fa1021b2d440d86d4846c8467e805)</br>
+ [透过KitKat，Android或与ChromeOS融合？-CSDN.NET](http://192.168.0.102:8080/article/fe10a3f69c824492bb6a33fa5460fbd1)</br>
+ [Loser应该知道的6个残酷人生事实（血泪翻译）](http://192.168.0.102:8080/article/9bfa2da5a94f464c8e2195a4363daee2)</br>
+ [马化腾：互联网的下7个爆发点在哪？|极客公园](http://192.168.0.102:8080/article/84f7a02ea8ae4cc88aa91e0f49931677)</br>
+ [我的阴道独白](http://192.168.0.102:8080/article/c42a028c72f64e7c8fca2286c2220190)</br>
+ [汽车3分钟变飞机“天行者”明年上市_cnBeta硬件新闻_cnBeta.COM](http://192.168.0.102:8080/article/bcd62c118a42440d8d9d96fbe04d1307)</br>
+ [顶级程序员的10条最佳实践|36氪](http://192.168.0.102:8080/article/96bef902c1a7428c909bed4034e700b8)</br>
+ [MartinJetpack个人飞行器带你提前感受未来世界-也米|前沿创意设计资讯](http://192.168.0.102:8080/article/d6c9c1a32c094f90beafdd53ac9af92c)</br>
+ [【C-cup性知识向】阴道有话说|性情小组|果壳网科技有意思](http://192.168.0.102:8080/article/3811b7b4504a4589843f1e8290c28f61)</br>
+ [下一代NoSQL：最终一致性的末日？-CSDN.NET](http://192.168.0.102:8080/article/255030d8f6f14bedae759dfd616053bf)</br>
+ [百万用户时尚分享网站feed系统扩展实践-CSDN.NET](http://192.168.0.102:8080/article/75caea0c71bc470db7eaa8d060d06fdf)</br>
+ [opensource,recommendationsystem](http://192.168.0.102:8080/article/0363f2def7a14cc9bcebd5cb2c86cce4)</br>
+ [不只是技术！成为IT经理必备的十大软技能-CSDN.NET](http://192.168.0.102:8080/article/7222df53be5f4c19bcecb4a4ba284bb2)</br>
+ [把你的树莓派打造成一台谷歌云打印机-极客范-GeekFan.net](http://192.168.0.102:8080/article/b4cd1e4e4753496da51e8e6c4aa9c460)</br>
+ [AngularJS优化最佳实践：从1200ms缩减到35ms-CSDN.NET](http://192.168.0.102:8080/article/467be82d5ad6441c8a6f0a4ce8c34fcd)</br>
+ [Cookie时代终结苹果谷歌微软抢占新标准滩头_网络软件_cnBeta.COM](http://192.168.0.102:8080/article/46d8edffda104825905429c39ced399f)</br>
+ [2300mAh也不可小觑Nexus5续航能力初测_LG_cnBeta.COM](http://192.168.0.102:8080/article/01f8004795924ea4b4e5a1449bd7ceb0)</br>
+ [摩托罗拉将在11月13日发布MotoG智能手机_Motorola摩托罗拉_cnBeta.COM](http://192.168.0.102:8080/article/9220009d100d42fe9da9b4129a6a2952)</br>
+ [复活诺基亚N900-爱范儿·BeatsofBits](http://192.168.0.102:8080/article/dd1643e815e74daaacb9d362d20aee34)</br>
+ [JavaScript框架的开发现状和生态环境](http://192.168.0.102:8080/article/1f0a10de6e924f34a381b2083b344552)</br>
+ [数学常数e的含义-阮一峰的网络日志](http://192.168.0.102:8080/article/b4e5160ca756421a8a73e60837cfc240)</br>
+ [摩托罗拉推开源硬件平台计划ProjectAra-CSDN.NET](http://192.168.0.102:8080/article/c37e4b5cf8c44148a1bcd74da734cc69)</br>
+ [运维人员需要有产品观-CSDN.NET](http://192.168.0.102:8080/article/b3b0a9541b81443b8334a26ccf96e230)</br>
+ [深度思考Java成员变量的初始化-百恼的专栏-博客频道-CSDN.NET](http://192.168.0.102:8080/article/e952378283054ed3b91c679bcf77dc69)</br>
+ [每天一个linux命令（15）：tail命令-peida-博客园](http://192.168.0.102:8080/article/75a308e45c8a431b83976c918e6a21a4)</br>
+ [漫画：为什么不能打断程序员？-博客-伯乐在线](http://192.168.0.102:8080/article/87c84d13ae4d4f65aa30686d14f0023a)</br>
+ [为什么英语对软件开发者很重要-CSDN.NET](http://192.168.0.102:8080/article/f9d13c9a6ec44c44b23025281de24bdc)</br>
+ [个人开发者如何开发优质应用-CSDN.NET](http://192.168.0.102:8080/article/32cf8d728ee04756b3805f55be194e81)</br>
+ [Vim-标签-feichexia-博客园](http://192.168.0.102:8080/article/a366eedf1fc64bde914ab62ca33a305a)</br>
+ [Facebook发明新算法预测用户约会对象是谁：准确率高达60%_TechWeb](http://192.168.0.102:8080/article/c327053e37e7413185e78376742d83de)</br>
+ [量产谈判正在进行时：谷歌手表或比GoogleGlass先上市-CSDN.NET](http://192.168.0.102:8080/article/afbb6096b0e14475959d2e5b9519a4b9)</br>
+ [继续紧逼Oracle：在占领谷歌等公司之后，MariaDB迈向企业端-CSDN.NET](http://192.168.0.102:8080/article/e982aef7783c40d1b4895f247f123010)</br>
+ [从测试数据来看Node.js和JavaEE的性能区别-CSDN.NET](http://192.168.0.102:8080/article/3ce28ec698914f54a3fb819ffb3c2b1a)</br>
+ [Facebook支撑万亿Post搜索背后的技术窥探-CSDN.NET](http://192.168.0.102:8080/article/47410e87761e425ca41da49f735d4ddc)</br>
+ [360推儿童卫士手环，你怎么看？-CSDN.NET](http://192.168.0.102:8080/article/a06e0c4b777b4e3dac7a0857c926554d)</br>
+ [让普通耳机变身脉搏监控器?-搜狐IT](http://192.168.0.102:8080/article/555508f006d84e2bbb48ba4c97601cdd)</br>
+ [外媒吐槽苹果iOS7七大短板_Apple苹果_cnBeta.COM](http://192.168.0.102:8080/article/3c4ca83e8d0c46cb91900673f7870314)</br>
+ [苹果营造软件免费趋势欲撼动微软现金牛根基_Apple苹果_cnBeta.COM](http://192.168.0.102:8080/article/2522475a952846b89fb8ad2efe77a1b2)</br>
+ [阿里巴巴CTO王坚：开发者精神是云计算与移动互联网的“信仰”-CSDN.NET](http://192.168.0.102:8080/article/ca844c03d84f4da598f34186c616db74)</br>
+ [IE11支持基于网页的文件编辑_InternetExplorer_cnBeta.COM](http://192.168.0.102:8080/article/b0a8513104b5452c89c44035ae376eef)</br>
+ [Google海上浮动数据中心构想可能已经实现_Google](http://192.168.0.102:8080/article/38b12297ab734bbfae4ea88c6ccea60f)</br>
+ [高频服务圈用户，低频服务谋利润——家政O2O寻找盈利模式困难，小跑生活向全品类家庭服务扩张|36](http://192.168.0.102:8080/article/5f7e0bb787864a54a68624ce05e3ce9c)</br>
+ [我跳槽是因为他们的显示器更大|外刊IT评论网](http://192.168.0.102:8080/article/2875ea90bbea4cbb974f6c458488e551)</br>
+ [前端MV*框架的意义«SinaAppEngineBlog](http://192.168.0.102:8080/article/6f8518d78e38489fbf3f328116f81bfa)</br>
+ [[简讯]新代码编辑器Lime发布号称SublimeText的开源实现-CSDN.NET](http://192.168.0.102:8080/article/6848b599778049e0871f376d964b11c4)</br>
+ [远见卓识，像CEO一样编写代码！-CSDN.NET](http://192.168.0.102:8080/article/bc32fda64671428cbe929d135a1c5d80)</br>
+ [为何程序员完成最后20%的工作需要的时间跟之前的80%一样多？|36氪](http://192.168.0.102:8080/article/6ff695f0f6cc4cbea97e4792b48ffabe)</br>
+ [Mainframe2让你的浏览器变成强大的工作站|36氪](http://192.168.0.102:8080/article/db735cabeeb0414090b980d7bbd3f99e)</br>
+ [给你的游戏努力一点回报，以Kiip为目标的Vtime想做一家有品牌的游戏实物奖励平台|36氪](http://192.168.0.102:8080/article/00f00cf70d7343f6ae23bd33e67f53e1)</br>
+ [TouchRoom：距离千尺，情系一指|36氪](http://192.168.0.102:8080/article/fc6c8aba7cf64b9190abeb1f759382de)</br>
+ [友盟发布四款新产品：社会化组件、消息推送、游戏分析和云加速，推“一站式解决方案”|36氪](http://192.168.0.102:8080/article/3fb7ca54b4834a9d97eea85337d0a9b7)</br>
+ [Google以2300万美元收购Android加速器DroidBooster的母公司FlexyCor](http://192.168.0.102:8080/article/36186f61707646ee933329c6d9e76934)</br>
+ [据说，微软也在做自己的Glass|36氪](http://192.168.0.102:8080/article/2aa9c3a5ee324b2ba1aae74f5460d8d5)</br>
+ [MySQL修改编码设置及乱码问题-米拉-博客频道-CSDN.NET](http://192.168.0.102:8080/article/c7876c07ec3046d9981e2aee35e1b3c4)</br>
+ [北京白领200万香河买房每天往返140公里上班-搜狐新闻](http://192.168.0.102:8080/article/80837a73a0d74b3e82c35788153d7140)</br>
+ [爸爸去哪儿-爸爸去哪儿在线观看-搜狐视频](http://192.168.0.102:8080/article/ae5ef26485294ae1a3cb4c5fbaff13de)</br>
+ [房产税试点扩大成共识或将向存量房渗透-搜狐财经](http://192.168.0.102:8080/article/54cc5de0340d435fa0ba03dc93ac0a7a)</br>
+ [刘诗诗抵沪口罩遮面似为新戏试镜见偷拍快闪-娱乐频道图片库-大视野-搜狐](http://192.168.0.102:8080/article/eddd13b98d434707ab33a671e1178d8a)</br>
+ [这些改装全是鸡肋细数那些白花的冤枉钱-搜狐汽车](http://192.168.0.102:8080/article/e4aa30746fa0475988f01f19adc00184)</br>
+ [一份《保证书》背后的猫腻-高勤荣的博客-我的搜狐](http://192.168.0.102:8080/article/dd27bca0bd6e43a2ae901e417bd7117f)</br>
+ [美国火箭升空完成“第八跳”准确降落到发射台-搜狐军事频道](http://192.168.0.102:8080/article/b95416492ffe4abdb918f1cc5546c377)</br>
+ [日媒称三艘中国海警船在钓鱼岛附近海域航行-搜狐军事频道](http://192.168.0.102:8080/article/07adf2c7881941e1bf1a3f7b99f308c4)</br>
+ [李克强听取工商联民资万言书高含金量项目将开放-搜狐财经](http://192.168.0.102:8080/article/fe28c850e5c54176b2d507a8f5401dcd)</br>
+ [习近平会见加拿大总督约翰斯顿-搜狐新闻](http://192.168.0.102:8080/article/2deac723837342c7922e9b88606a0654)</br>
+ [CSDN.NET-全球最大中文IT社区，为IT专业技术人员提供最全面的信息传播和服务平台](http://192.168.0.102:8080/article/d606a87a9c5a431ab6cb88b6a018ac76)</br>
+ [CSDN.NET-全球最大中文IT社区，为IT专业技术人员提供最全面的信息传播和服务平台](http://192.168.0.102:8080/article/9d16f4eec64b4f9f95b5771c26b8389d)</br>
+ [Storm又获东风，Hortonworks计划将其整合到Hadoop企业版-CSDN.NET](http://192.168.0.102:8080/article/e0af84c693e5438291fae84f751d4449)</br>
+ [前端工程师-子游文化传媒有限公司-开源中国社区](http://192.168.0.102:8080/article/f57c9b4a72794b42a50b0ba199402a94)</br>
+ [美国航天局公布月球全景式自转视频_cnBeta科学探索_cnBeta.COM](http://192.168.0.102:8080/article/b18ba0bd260a4332bea8150dc3ca932b)</br>
+ [鲍尔默：在微软最大的遗憾是错失手机_cnBeta人物-SteveBallmer_cnBeta](http://192.168.0.102:8080/article/a169c7fd97444a7badb55a4e7d2d85e1)</br>
+ [谷歌最新ChromeOSbuild中加入启动、锁定、解锁、关机音乐_GoogleChrome](http://192.168.0.102:8080/article/6b8b75c1ed3240bea349bcf14893fc24)</br>
+ [山寨Lightning线缆已经无法在iOS7系统下正常工作_AppleiPhone_cnBeta](http://192.168.0.102:8080/article/ac1fcb7c82f64250b9d1a7bbbf8b0d0b)</br>
+ [广东电信新版iPhone开售火爆里皮成首个用户_AppleiPhone_cnBeta.COM](http://192.168.0.102:8080/article/451f56b8e23b49ef9ef766c498824ac3)</br>
+ [Nvidia发布GeForce327.23WHQL驱动兼容Windows8.1_NVIDIA](http://192.168.0.102:8080/article/6108c7fe46614473b037688365d56a61)</br>
+ [[图集]AppleStore新布置、排队以及第一批拿到iPhone5S的人_Apple苹果_c](http://192.168.0.102:8080/article/2037b4f0290e4e4b908d921e9ddb74a2)</br>
+ [还是原来的味道iPhone5siPhone5c第一时间上手体验_Apple苹果_cnBeta.](http://192.168.0.102:8080/article/ab09c47edf984f18b4311b0b52c89c8b)</br>
+ [[图表]皮尤：美国超一半用户使用手机访问互联网_theUnitedStates美国_cnBet](http://192.168.0.102:8080/article/42eee097d0114004a5cfe4252d7adc62)</br>
+ [[图]iPhone5s/5c今日开卖三里屯火爆不再_AppleiPhone_cnBeta.CO](http://192.168.0.102:8080/article/7d444e8b0644486db4d3af78e1edf784)</br>
+ [雷德蒙德园区遭遇断电微软暂停金融分析大会_Microsoft微软_cnBeta.COM](http://192.168.0.102:8080/article/96ecc3c18c9d47008f50e04c70c1b271)</br>
+ [加拿大政府希望黑莓能自力更生_BlackBerry黑莓_cnBeta.COM](http://192.168.0.102:8080/article/319e2b3b191241e29c34d34597ee30a6)</br>
+ [微软：在教育和政府领域Windows设备绝对优于Android设备_Microsoft微软_cn](http://192.168.0.102:8080/article/63f5e5941b6946ffbd794738be1d9cd8)</br>
+ [前端工程与性能优化（下）：静态资源管理与模板框架](http://192.168.0.102:8080/article/3530169d1e354a809c49b4bb44a47e48)</br>
+ [移动版YouTube将会在11月加入真正脱机播放功能](http://192.168.0.102:8080/article/4a3cd4b6f5e04e1ebe816ef7e66295c3)</br>
+ [联通新iPhone首销：网上预定用户2小时后收到货](http://192.168.0.102:8080/article/45c27ad2cb62427c873f86bab156b15f)</br>
+ [搜狗和腾讯刀剑相向的往事-月光博客](http://192.168.0.102:8080/article/11d373f3a7f34fa68c109052429e3a37)</br>
+ [Java8开发者预览版发布](http://192.168.0.102:8080/article/54c875a298c74b4198c0854a9b1f3e56)</br>
+ [韩国doodle：韩国感恩节2013|谷奥——探寻谷歌的奥秘](http://192.168.0.102:8080/article/a4ce12ba72db4be2a151304cf9d3ba34)</br>
+ [[组图]华为荣耀3开箱图集_Huawei华为_cnBeta.COM](http://192.168.0.102:8080/article/8453baa241fa4d7090233a9006a30d0a)</br>
+ [电信联通今日同步发售iPhone5s/5c_AppleiPhone_cnBeta.COM](http://192.168.0.102:8080/article/afb55481e7e24f759114f8b200cb59f7)</br>
+ [为什么WebApp的运行速度慢-CSDN.NET](http://192.168.0.102:8080/article/d33d9cc8014f4fa6af57fc3ddc1eaf8d)</br>
+ [SAE的资源、安全隔离与Container-CSDN.NET](http://192.168.0.102:8080/article/19cb1cd2114d496f8dda09634d60de87)</br>
+ [社交网络招聘时代：智能手机如何影响招聘-CSDN.NET](http://192.168.0.102:8080/article/78f21a6e399e4af3b6f4103649b27d9c)</br>
+ [美研制10倍音速飞行器：每次发射仅500万美元_cnBeta科学探索_cnBeta.COM](http://192.168.0.102:8080/article/22d8b2d54534427592ec4f6d997b2c21)</br>
+ [苹果发布会后的冷思考，64位芯片为开发者带来了什么？-CSDN.NET](http://192.168.0.102:8080/article/2e6a9ea76e9a4a0283bcb666a18a8953)</br>
+ [豌豆荚：“应用内搜索”是打通移动互联网最具竞争力的入口-CSDN.NET](http://192.168.0.102:8080/article/f1121a7b9e9d4404a6118a7b31f10864)</br>
+ [中兴Geek评测：高性价比的英特尔处理器智能机-CSDN.NET](http://192.168.0.102:8080/article/6cbe61549a4a4a969563bfbfe1935c22)</br>
+ [为什么说UX设计师的黄金时代已来临？-CSDN.NET](http://192.168.0.102:8080/article/cba79e0596f04432871b4a8e4b4daabb)</br>
+ [前谷歌Android开源项目主管Queru加盟雅虎-CSDN.NET](http://192.168.0.102:8080/article/9cca1e52b5e84351a93f8b3282389cce)</br>
+ [对AngularJS进行性能调优的7个建议-CSDN.NET](http://192.168.0.102:8080/article/083dd7748e024561ac6e491a1e3ad058)</br>
+ [[多图]iOS7再爆锁屏漏洞可绕过密码查看照片等资料_AppleiPhone_cnBeta.C](http://192.168.0.102:8080/article/75afc10932a64afe83536c1f3c66a275)</br>
+ [Telstra因取消Lumia1020定单而向消费者提供免费Lumia520_NOKIA诺基亚](http://192.168.0.102:8080/article/70e1c353fc6b4c0abbfc1a80dd208245)</br>
+ [Windows8.1售价出来了！分别是119.99美元、199.99美元-CSDN.NET](http://192.168.0.102:8080/article/d7b1008156fc47668e3a7c851d31e53e)</br>
+ [iPhone5s/5c来了运营商与黄牛怎么看？_cnBeta视点观察_cnBeta.COM](http://192.168.0.102:8080/article/691d59d2b79a47f880b1f91129588e24)</br>
+ [惠普发布首款Windows8.1平板Omni10_Hewlett-Packard惠普_cnBe](http://192.168.0.102:8080/article/b63fc0d1d2f449b8b9ea427db1c9360a)</br>
+ [泄露图显示罗技将发布专用于iOS设备的游戏配件ClamCase_Logitech罗技_cnBeta](http://192.168.0.102:8080/article/6a8109cc4399444989a8c1dbb39d25a4)</br>
+ [来看看哪些应用适配了iOS7风格设计-爱范儿·BeatsofBits](http://192.168.0.102:8080/article/20bdf86a8da341a99bfe5e6cccd64043)</br>
+ [[科技新報]iPhone5s記憶體只有1GB這點免懷疑，不過是更省電的LPDDR3，兼論採](http://192.168.0.102:8080/article/ab14fa39271e4f2b92d36340aaa4e275)</br>
+ [亚马逊德国配送中心员工再度罢工_电子商务-B2C/B2B_cnBeta.COM](http://192.168.0.102:8080/article/52227381841d40509c53f0fe0c8d3e06)</br>
+ [雅虎更新MyYahoo主页：更具现代感_Yahoo!雅虎_cnBeta.COM](http://192.168.0.102:8080/article/c4861354d0f94ad39b6e096a143e3a2a)</br>
+ [美国检察官称赞iOS7激活锁功能鼓励用户速速升级_AppleiPhone_cnBeta.C](http://192.168.0.102:8080/article/c61255e4b65b475e8205cf5f3dd5a891)</br>
+ [AMan'sGutBrewsItsOwnBeerandGetsHimDrunk](http://192.168.0.102:8080/article/da8903371247475482a23bb39d0cc64a)</br>
+ [电信新iPhone今早全球首发前50名降800元](http://192.168.0.102:8080/article/ca875ef9f11f4b0e9592778bec20ac58)</br>
+ [UbuntuTouch10月到来AndroidNexus将成首批运行设备_Ubuntu_cnB](http://192.168.0.102:8080/article/411ff174225b4dc29964f7616df93407)</br>
+ [CongresswomanUsesSteak,Vodka,AndCaviarToHam](http://192.168.0.102:8080/article/4f88f8c415c84a998178407e3d660ae3)</br>
+ [《侠盗5》发布第一天全球收入8亿美元45万PC玩家不满_cnBeta精品软件_cnBeta.COM](http://192.168.0.102:8080/article/f8a25157e4734cc98b8db0b481b54bad)</br>
+ [土豪我们做朋友|极客早知道2013年9月20日|极客公园](http://192.168.0.102:8080/article/e1c61ad152b64333a92b62918570e7c7)</br>
+ [美国一校区聘网监公司监视学生网络行为-TECH2IPO创见](http://192.168.0.102:8080/article/c639f8dbd88b4d4b82c81efbf2f58786)</br>
+ [[组图]飞利浦研发出按钮可触控的遥控器_PHILIPS飞利浦_cnBeta.COM](http://192.168.0.102:8080/article/c426755e56dc44919e1a487c9a4b95f3)</br>
+ [惠普发布四款Android平板电脑涵盖7-10英寸_Hewlett-Packard惠普_cnBeta.COM](http://192.168.0.102:8080/article/a8b396c4d2644f3a89e2894d8006ee9b)</br>
+ [任天堂前社长去世享年85岁](http://192.168.0.102:8080/article/88b004a714e24708814d06f34f0c5642)</br>
+ [手机芯片战争：英特尔苦追ARM联发科挑战高通_cnBeta硬件新闻_cnBeta.COM](http://192.168.0.102:8080/article/7f1765f88f5248c191088d23244f5e97)</br>
+ [第一台集成LeapMotion的笔记本诞生了-爱范儿·BeatsofBits](http://192.168.0.102:8080/article/5037fe5f38db47b3a624b8bdc66a2293)</br>
+ [Pinterest向用户发公开信解释广告策略|动点科技](http://192.168.0.102:8080/article/7ecebde4e0e345f793fc8394967e01b1)</br>
+ [《财富》40岁以下商界明星梅耶尔第一_cnBeta人物_cnBeta.COM](http://192.168.0.102:8080/article/5ee737d4d0454fdb83fddd862561d4ea)</br>
+ [诺基亚仍在继续Android机开发工作富士康已输送1万多部原型机_NOKIA诺基亚_cnBeta.COM](http://192.168.0.102:8080/article/1360bc4070bf4e76b57d9b9295972a7e)</br>
+ [一机玩遍所有老式游戏卡Retron5游戏机12月发布_游戏_cnBeta.COM](http://192.168.0.102:8080/article/3271a7897da94406a0187a15633cca5a)</br>
+ [美国检察官称赞AppleiOS7的ActivationLock，促请升级](http://192.168.0.102:8080/article/0ed977f68f784646b4892120467a4cd6)</br>
+ [《时代》：意欲对抗死神的谷歌_Google/谷歌_cnBeta.COM](http://192.168.0.102:8080/article/0deb26996ce54ed180abbb2c63fcc1f1)</br>
+ [[组图]未来汽车：人工智能与自动驾驶_cnBeta硬件新闻_cnBeta.COM](http://192.168.0.102:8080/article/e685a8370dfc416eb8ae727c81b57366)</br>
+ [[图表]一天的时间iOS7安装率就已升至33.13%_Apple苹果_cnBeta.COM](http://192.168.0.102:8080/article/e9871a59d42843e6b49ee846953d12aa)</br>
+ [纽约第五大道AppleStore门外排队果粉人数不断增加_AppleiPhone_cnBeta.COM](http://192.168.0.102:8080/article/dcdda69d37e64c66bdf5d5de8ffadabe)</br>
+ [RubyOnRails实践现状调查结果](http://192.168.0.102:8080/article/e503fbe7f4c3476f881b82f3d1bbf719)</br>
+ [Sony打算在今个财务年度内卖出500万部PlayStation4](http://192.168.0.102:8080/article/da2b5310a15948f491127166ada27d32)</br>
+ [索尼警告擅自解锁Z1将使相机无法使用_SONY索尼_cnBeta.COM](http://192.168.0.102:8080/article/c52059922163440594f2b3a81660b3cd)</br>
+ [妖言惑众19期：红花要有绿叶配-TECH2IPO创见](http://192.168.0.102:8080/article/ccefe94188be4a0d88441c184ace3547)</br>
+ [新PSVita上手汇总：轻、薄是最多感受-爱范儿·BeatsofBits](http://192.168.0.102:8080/article/bbc2d1fe9f27474dbe5fdad46f960ddf)</br>
+ [三星遭抛弃，新Nexus10将由华硕代工？-爱范儿·BeatsofBits](http://192.168.0.102:8080/article/bd42d12ae41449ebb2cd380506be8f5b)</br>
+ [PlayStation4「熔岩红」、「海浪蓝」无线控制器及PSVita限量版动眼看，加上各项](http://192.168.0.102:8080/article/840f48b0da3a4b1faefb2d187a5b292a)</br>
+ [[视频]BBC新闻主播误把一包A4纸当成iPad_Media全球媒体_cnBeta.COM](http://192.168.0.102:8080/article/962a3b20d6f94202a27236087358aaa7)</br>
+ [世界上唯一的海底实验室重新开启_cnBeta科学探索_cnBeta.COM](http://192.168.0.102:8080/article/a707c69222ac43219a477556abdd72e3)</br>
+ [GEAKWatch智能手表初体验_cnBeta硬件新闻_cnBeta.COM](http://192.168.0.102:8080/article/71b3347d4d324b849a304e3c40a81257)</br>
+ [Kogan推出第二款Agora智慧型手机](http://192.168.0.102:8080/article/8265031a48844995a53026ff777a95bb)</br>
+ [Java7Update40发布，新增任务控制和规则集支持](http://192.168.0.102:8080/article/588b2ba5493148bbb3b3367989ae513b)</br>
+ [谷歌发布新扁平化Logo更改首页导航栏设计_Google/谷歌_cnBeta.COM](http://192.168.0.102:8080/article/5233e5aa8ee743759a365618736cba71)</br>
+ [Apple开始让Windows用户以Chrome和Firefox同步iCloud上的书签](http://192.168.0.102:8080/article/4dad7c149ca24ba3a634feb461a8fcf0)</br>
+ [Solidot|微信会将密码暴露给攻击者](http://192.168.0.102:8080/article/496da24155d740f7b3aa25f79c93177c)</br>
+ [马云的“赎身”梦魇:香港美国难接受合伙人制度_cnBeta人物-马云_cnBeta.COM](http://192.168.0.102:8080/article/3635f30ae58e4e8ebccc1234863abcb9)</br>
+ [谷歌宣布QuickOffice正式免费附送10GB空间_Google/谷歌_cnBeta.COM](http://192.168.0.102:8080/article/3034c493455343cab42ba6ec0d7fb714)</br>
+ [国行诺基亚520及港行620,820,920已开始更新GDR2+Amber固件_NOKIA诺基亚_](http://192.168.0.102:8080/article/2f695fab14144d949fe693716bad1bf0)</br>
+ [这样才能引爆易信！|极客公园](http://192.168.0.102:8080/article/2670cae940024217baff448bbf878831)</br>
+ [惠普发布Spectre13超极本搭载高分触屏超宽触摸板_Hewlett-Packard惠普_cnBeta.COM](http://192.168.0.102:8080/article/18f05e7a2ee04e30a661aa659c640a92)</br>
+ [小米电视是什么电视？-爱范儿·BeatsofBits](http://192.168.0.102:8080/article/0d690019a45645cc8ed6a06972ff989a)</br>
+ [一个在清华附近蹲了17年的男人|极客公园](http://192.168.0.102:8080/article/043376c4c2134efbadab803bef63faa3)</br>
+ [诺基亚推迟新款手机发布时间或于10月发布_NOKIA诺基亚_cnBeta.COM](http://192.168.0.102:8080/article/316ca31cbc414d0380bb28717c5e3252)</br>
+ [子游博客](http://192.168.0.102:8080/article/b03c308894854c7797e9d7bbfcb35675)</br>
+ [MotoX开发版$649.99在售支持Verizon或GSM网络_Motorola摩托罗拉_cnBeta.COM](http://192.168.0.102:8080/article/a6053e286d5c44b9870029c9708eb242)</br>
+ [苹果的口述历史：伟大商业故事背后的设计传说_Apple苹果_cnBeta.COM](http://192.168.0.102:8080/article/6b46ffc58284403289e1dffeb23e251f)</br>
+ [雅虎股价重返31美元杨致远可以一吐心中闷气了？_Yahoo!雅虎_cnBeta.COM](http://192.168.0.102:8080/article/763d40cf16964a1e9c78d61bae41b210)</br>
+ [苹果iPadmini2背壳再曝光或也有三种颜色_AppleiPad_cnBeta.COM](http://192.168.0.102:8080/article/70d4e94bcf9344dba48efaed5f0170b0)</br>
+ [微软：公司55%的收入来自企业级用户_Microsoft微软_cnBeta.COM](http://192.168.0.102:8080/article/ce029cd0d176470f92df01a479512f31)</br>
+ [尼尔森收视率统计明年将纳入平板和智能机的收视数据_通信技术_cnBeta.COM](http://192.168.0.102:8080/article/784ec3a68b4f41f0b4221185b41dffad)</br>
+ [[图]为迎新机苹果零售店开始“更换新装”_Apple苹果_cnBeta.COM](http://192.168.0.102:8080/article/a47595b107ee48d38a604f23ef64cece)</br>
+ [iOS版GoogleWallet应用发布_Google/谷歌_cnBeta.COM](http://192.168.0.102:8080/article/b8c7c89946734cccbebc5b031af411dd)</br>
+ [Android和iOS版Quickoffice都变成免费的了](http://192.168.0.102:8080/article/e38470cae7a34c778dce3e561722d845)</br>
+ 
