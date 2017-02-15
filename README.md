@@ -4,8 +4,7 @@
 
 
 
-[接口协议说明](https://github.com/zhangshanhai/readthis-api/wiki)
-
+# [接口协议说明](https://github.com/zhangshanhai/readthis-api/wiki)  ←-----戳这里
 
 1.我做一个网站，[网络收藏夹](http://100000p.com)
 
