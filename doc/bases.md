@@ -7,15 +7,15 @@
 ### HTTP 请求
 
 ```
-GET  /2/base_articles/:url_md5
-HEAD /2/base_articles/:url_md5
+GET  /v2/bases/:url_md5
+HEAD /v2/bases/:url_md5
 ```
 
 ### URL 参数
 
-参数名  |值    |描述
--------|------|-------------------
-url_md5|string|文章的 url 的 md5 值
+参数名   | 值类型  | 描述
+------- | ------ | -------------------
+url_md5 | string | 文章的 url 的 md5 值
 
 ### 请求体
 
@@ -44,16 +44,16 @@ url_md5|string|文章的 url 的 md5 值
 ### HTTP 请求
 
 ```
-GET  /2/base_articles/:url_md5/forks
-HEAD /2/base_articles/:url_md5/forks
+GET  /v2/bases/:url_md5/forks
+HEAD /v2/bases/:url_md5/forks
 ```
 
 ### URL 参数
 
-参数名  |值     |描述
--------|-------|--------------------------------------------
-url_md5|string |文章的 url 的 md5 值
-details|boolean|可选, 设置为 true 时, 将一并返回分支文章的内容数据
+参数名   | 值类型   | 描述
+------- | ------- | --------------------------------------------
+url_md5 | string  | 文章的 url 的 md5 值
+details | boolean | 可选, 设置为 true 时, 将一并返回分支文章的内容数据
 
 ### 请求体
 

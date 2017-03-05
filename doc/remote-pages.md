@@ -9,14 +9,14 @@
 ### HTTP 请求
 
 ```
-GET  /2/remote-pages/:url
+GET  /v2/remote-pages/:url
 ```
 
 ### URL 参数
 
-参数名|值    |描述
------|------|-----------
-url  |string|值需要 URL encode.
+参数名 | 值类型    | 描述
+----- | -------- | -----------
+url   | string   | 值需要 URL encode.
 
 ### 请求体
 
