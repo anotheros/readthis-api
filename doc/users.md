@@ -1,45 +1,36 @@
 # 用户
 
-用户是基本成员.
+用户是网站的基本成员.
 
-## 根据用户 id 获取用户详细信息
+**用户**
+* [创建用户](#创建用户)
+* [获取用户](#获取用户)
+* [更新用户](#更新用户)
+* [修改用户密码](#修改用户密码)
 
-### HTTP 请求
+**关注者**
+* [获取用户关注者](#获取用户关注者)
+* [获取用户的关注者列表](#获取用户的关注者列表)
 
-```
-GET /v2/users/:id
-```
+**关注中的用户**
+* [添加关注中的用户](#添加关注中的用户)
+* [获取关注中的用户](#获取关注中的用户)
+* [获取关注中的用户列表](#获取关注中的用户列表)
 
-### URL 参数
+**收藏夹**
+* [关注收藏夹](#关注收藏夹)
+* [获取用户创建的收藏夹](#获取用户创建的收藏夹)
+* [获取用户关注的收藏夹](#获取用户关注的收藏夹)
+* [获取用户关注的收藏夹列表](#获取用户关注的收藏夹列表)
+* [取消关注收藏夹](#取消关注收藏夹)
 
-参数名     | 值类型      | 描述
---------- | ---------- | -------------------------------------------------------
-id        | string{32} | 用户的 id
+**标签**
+* [关注标签](#关注标签)
+* [获取关注的标签](#获取关注的标签)
+* [获取关注的标签列表](#获取关注的标签列表)
+* [取消关注标签](#取消关注标签)
 
-### 请求体
-
-无
-
-### 响应体
-
-```
-{
-  id: string // 用户的id
-  nickname: string // 昵称, 默认为 id, 可修改一次
-  url_token: string // 个性域名, 默认为 id, 可修改一次
-  create_at: number // 注册时间, Unix 时间戳
-  is_admin: boolean // 是否是管理员
-  following_count: number // 正在关注数量
-  follower_count: number // 关注者数量
-  collections_count: number // 收藏夹数量
-  following_collections_count: number // 关注的收藏夹数量
-  following_tags_count: number // 关注的标签数量
-}
-```
-
----
-
-## 注册用户
+## 创建用户
 
 ### HTTP 请求
 
@@ -76,7 +67,44 @@ POST /v2/users
 
 ---
 
-## 更新用户资料
+## 获取用户
+
+### HTTP 请求
+
+```
+GET /v2/users/:id
+```
+
+### URL 参数
+
+参数名     | 值类型      | 描述
+--------- | ---------- | -------------------------------------------------------
+id        | string{32} | 用户的 id
+
+### 请求体
+
+无
+
+### 响应体
+
+```
+{
+  id: string // 用户的id
+  nickname: string // 昵称, 默认为 id, 可修改一次
+  url_token: string // 个性域名, 默认为 id, 可修改一次
+  create_at: number // 注册时间, Unix 时间戳
+  is_admin: boolean // 是否是管理员
+  following_count: number // 正在关注数量
+  follower_count: number // 关注者数量
+  collections_count: number // 收藏夹数量
+  following_collections_count: number // 关注的收藏夹数量
+  following_tags_count: number // 关注的标签数量
+}
+```
+
+---
+
+## 更新用户
 
 ### HTTP 请求
 
@@ -114,6 +142,8 @@ id        | string{32} | 用户的 id
 }
 ```
 
+---
+
 ## 修改用户密码
 
 ### HTTP 请求
@@ -138,7 +168,7 @@ PATCH /v2/users/:id/password
 
 ---
 
-## 根据用户 id 获取用户关注者
+## 获取用户关注者
 
 ### HTTP 请求
 
@@ -160,11 +190,11 @@ follower_user_id | string     | 关注者的用户id
 
 ### 响应体
 
-如果存在, 302 跳转至 `/users/:follower_user_id`  
+如果存在, 302 跳转至 `/users/:follower_user_id`
 
 ---
 
-## 根据用户 id 获取用户的关注者列表
+## 获取用户的关注者列表
 
 ### HTTP 请求
 
@@ -199,7 +229,7 @@ number
 
 ---
 
-## 添加正在关注者
+## 添加关注中的用户
 
 ### HTTP 请求
 
@@ -227,7 +257,33 @@ id        | string{32} | 用户的 id
 
 ---
 
-## 根据用户 id 获取用户正在关注的用户列表
+## 获取关注中的用户
+
+### HTTP 请求
+
+```
+GET  /v2/users/:user_id/following/:following_user_id
+HEAD /v2/users/:user_id/following/:following_user_id
+```
+
+### URL 参数
+
+参数名             | 值类型      | 描述
+----------------- | ---------- | -------------------------------------------------------
+user_id           | string{32} | 用户的 id
+following_user_id |            | 需要查询的正在关注者 id
+
+### 请求体
+
+无
+
+### 响应体
+
+如果存在, 302 跳转至 `/users/:user_id`
+
+---
+
+## 获取关注中的用户列表
 
 ### HTTP 请求
 
@@ -262,33 +318,35 @@ number
 
 ---
 
-## 根据用户 id 获取用户正在关注的用户
+## 关注收藏夹
 
 ### HTTP 请求
 
 ```
-GET  /v2/users/:user_id/following/:following_user_id
-HEAD /v2/users/:user_id/following/:following_user_id
+POST /v2/users/:id/following_collections
 ```
 
 ### URL 参数
 
-参数名             | 值类型      | 描述
------------------ | ---------- | -------------------------------------------------------
-user_id           | string{32} | 用户的 id
-following_user_id |            | 需要查询的正在关注者 id
+参数名     | 值类型      | 描述
+--------- | ---------- | -------------------------------------------------------
+id        | string{32} | 用户的 id
 
 ### 请求体
 
-无
+```
+{
+  collection_id: string // 收藏夹的 id
+}
+```
 
 ### 响应体
 
-如果存在, 302 跳转至 `/users/:user_id`
+无
 
 ---
 
-## 根据用户 id 获取其收藏夹
+## 获取用户创建的收藏夹
 
 ### HTTP 请求
 
@@ -323,30 +381,7 @@ number
 
 ---
 
-## 取消收藏夹关注
-
-### HTTP 请求
-
-```
-DELETE /v2/users/:user_id/following_collections/:collection_id
-```
-
-### URL 参数
-
-参数名         | 值类型      | 描述
-------------- | ---------- | ---------------------------------------------------
-user_id       | string{32} | 用户的 id
-collection_id | string     | 收藏夹的 id
-
-### 请求体
-
-无
-
-### 响应体
-
-无
-
-## 从用户处获取其关注的收藏夹
+## 获取用户关注的收藏夹
 
 ### HTTP 请求
 
@@ -372,35 +407,7 @@ collection_id | string     | 收藏夹的 id
 
 ---
 
-## 添加关注的收藏夹
-
-### HTTP 请求
-
-```
-POST /v2/users/:id/following_collections
-```
-
-### URL 参数
-
-参数名     | 值类型      | 描述
---------- | ---------- | -------------------------------------------------------
-id        | string{32} | 用户的 id
-
-### 请求体
-
-```
-{
-  collection_id: string // 收藏夹的 id
-}
-```
-
-### 响应体
-
-无
-
----
-
-## 根据用户 id 获取其关注的收藏夹
+## 获取用户关注的收藏夹列表
 
 ### HTTP 请求
 
@@ -435,21 +442,20 @@ number
 
 ---
 
-## 删除关注的标签
+## 取消关注收藏夹
 
 ### HTTP 请求
 
 ```
-GET  /v2/users/:user_id/following_tags/:tag_name
-HEAD /v2/users/:user_id/following_tags/:tag_name
+DELETE /v2/users/:user_id/following_collections/:collection_id
 ```
 
 ### URL 参数
 
-参数名     | 值类型      | 描述
---------- | ---------- | -------------------------------------------------------
-user_id   | string{32} | 用户的 id
-tag_name  | string     | 标签名
+参数名         | 值类型      | 描述
+------------- | ---------- | ---------------------------------------------------
+user_id       | string{32} | 用户的 id
+collection_id | string     | 收藏夹的 id
 
 ### 请求体
 
@@ -461,7 +467,35 @@ tag_name  | string     | 标签名
 
 ---
 
-## 从用户处获取其关注的标签
+## 关注标签
+
+### HTTP 请求
+
+```
+POST /v2/users/:id/following_tags
+```
+
+### URL 参数
+
+参数名     | 值类型      | 描述
+--------- | ---------- | -------------------------------------------------------
+id        | string{32} | 用户的 id
+
+### 请求体
+
+```
+{
+  tag_name: string // 标签名
+}
+```
+
+### 响应体
+
+无
+
+---
+
+## 获取关注的标签
 
 ### HTTP 请求
 
@@ -487,7 +521,7 @@ tag_name  | string     | 标签名
 
 ---
 
-## 根据用户 id 获取关注的标签
+## 获取关注的标签列表
 
 ### HTTP 请求
 
@@ -522,27 +556,25 @@ number
 
 ---
 
-## 添加关注的收藏夹
+## 取消关注标签
 
 ### HTTP 请求
 
 ```
-POST /v2/users/:id/following_tags
+GET  /v2/users/:user_id/following_tags/:tag_name
+HEAD /v2/users/:user_id/following_tags/:tag_name
 ```
 
 ### URL 参数
 
 参数名     | 值类型      | 描述
 --------- | ---------- | -------------------------------------------------------
-id        | string{32} | 用户的 id
+user_id   | string{32} | 用户的 id
+tag_name  | string     | 标签名
 
 ### 请求体
 
-```
-{
-  tag_name: string // 标签名
-}
-```
+无
 
 ### 响应体
 

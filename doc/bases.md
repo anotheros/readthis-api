@@ -2,7 +2,13 @@
 
 基底文章是相同原文地址的文章(articles)的统一来源, 基底文章由页面的 URL MD5 值保证唯一性, 只能通过后台创建, 不可经外部修改.
 
-## 从 URL 的 MD5 值查询基底文章的详细信息
+**基底文章**
+* [用URL的MD5值获取基底文章](#用URL的MD5值获取基底文章)
+
+**分支文章**
+* [用URL的MD5值获取基底文章的分支文章](#用URL的MD5值获取基底文章的分支文章)
+
+## 用URL的MD5值获取基底文章
 
 ### HTTP 请求
 
@@ -39,13 +45,15 @@ url_md5 | string | 文章的 url 的 md5 值
 }
 ```
 
-## 从 URL 的 MD5 值查询基底文章的分支文章
+---
+
+## 用URL的MD5值获取基底文章的分支文章
 
 ### HTTP 请求
 
 ```
-GET  /v2/bases/:url_md5/forks
-HEAD /v2/bases/:url_md5/forks
+GET  /v2/bases/:url_md5/articles
+HEAD /v2/bases/:url_md5/articles
 ```
 
 ### URL 参数
