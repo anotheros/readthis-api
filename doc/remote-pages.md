@@ -30,8 +30,9 @@ url   | string   | 值需要 URL encode.
 ```
 {
   title: string // 文章标题
-  body: string // 文章的正文内容
+  tags: string[] // 标签名数组, 可能为空
   summary: string // 文章摘要
+  body: string // 文章的正文内容
   external_url: string // 文章的原文绝对地址(外部地址)
   icon_url: string // 文章的图标绝对地址
   title_image_url: string[] // 题图的绝对地址数组, 可能为空
