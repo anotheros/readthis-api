@@ -24,4 +24,4 @@ token     | string{32} | 个性域名
 
 ### 响应体
 
-302 跳转至 /users/:id
+302 跳转至 `/users/:id`

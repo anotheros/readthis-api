@@ -61,7 +61,6 @@ POST /v2/users
   email: string // Email 地址
   url_token: string // 个性域名, 默认为 id, 可修改一次
   create_at: number // 注册时间, Unix 时间戳
-  is_admin: boolean // 是否是管理员
 }
 ```
 
@@ -93,7 +92,6 @@ id        | string{32} | 用户的 id
   nickname: string // 昵称, 默认为 id, 可修改一次
   url_token: string // 个性域名, 默认为 id, 可修改一次
   create_at: number // 注册时间, Unix 时间戳
-  is_admin: boolean // 是否是管理员
   following_count: number // 正在关注数量
   follower_count: number // 关注者数量
   collections_count: number // 收藏夹数量
@@ -138,7 +136,6 @@ id        | string{32} | 用户的 id
   email: string // Email 地址
   url_token: string // 个性域名, 默认为 id, 可修改一次
   create_at: number // 注册时间, Unix 时间戳
-  is_admin: boolean // 是否是管理员
 }
 ```
 
