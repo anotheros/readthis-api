@@ -1,13 +1,14 @@
-# 分支文章
+# 文章
 
-分支文章是主要的操作对象, 分支文章基于基底文章(base_articles)衍生而来, 具备可编辑性.
+文章是主要的操作对象.
 
-**分支文章**
-* [创建分支文章](#创建分支文章)
-* [获取分支文章](#获取分支文章)
-* [修改分支文章](#修改分支文章)
+**文章**
+* [创建文章](#创建文章)
+* [获取文章](#获取文章)
+* [请求修改文章](#请求修改文章)
+* [修改文章](#修改文章)
 
-## 创建分支文章
+## 创建文章
 
 若 URL 未被记录在库, 则会自动建立相应的基底文章.
 
@@ -26,10 +27,10 @@ POST /v2/articles
 ```
 {
   title: string // 文章标题
-  external_url: string // 文章的原文绝对地址(外部地址)
+  url: string // 文章的原文绝对地址(外部地址)
   tags: string[] // 标签名数组, 可能为空
-  remark: string // 分支文章的备注
-  collection_id: string // 用户的收藏夹 id, 文章将被添加到这个收藏夹, 此值为null时, 服务器会将文章添加到该用户的默认收藏夹
+  remark: string // 文章的备注
+  collectionId: string // 用户的收藏夹 id, 文章将被添加到这个收藏夹, 此值为null时, 服务器会将文章添加到该用户的默认收藏夹
 }
 ```
 
@@ -41,22 +42,20 @@ POST /v2/articles
   title: string // 文章标题
   body: string // 文章的正文内容
   summary: string // 文章摘要
-  external_url: string // 文章的原文绝对地址(外部地址)
-  jump_url: string // 文章的跳转绝对地址
-  icon_url: string // 文章的图标绝对地址
-  title_image_url: string[] // 题图的绝对地址数组, 可能为空
-  create_at: number // 文章创建时间, Unix时间戳
-  update_at: number // 文章更新时间, Unix时间戳
+  url: string // 文章的原文绝对地址(外部地址)
+  jumpUrl: string // 文章的跳转绝对地址
+  iconUrl: string // 文章的图标绝对地址
+  titleImageUrl: string[] // 题图的绝对地址数组, 可能为空
+  createTime: number // 文章创建时间, Unix时间戳
+  updateTime: number // 文章更新时间, Unix时间戳
   tags: string[] // 标签名数组, 可能为空
-  remark: string // 分支文章的备注
-  base_id: string{32} // 对应基底文章的 id
-  user_id: string // 对应创建该分支文章的用户的 id
+  remark: string // 文章的备注
 }
 ```
 
 ---
 
-## 获取分支文章
+## 获取文章
 
 ### HTTP 请求
 
@@ -69,7 +68,7 @@ HEAD /v2/articles/:id
 
 参数名 | 值类型      | 描述
 ----- | ---------- | -----------
-id    | string{32} | 分支文章的 id
+id    | string{32} | 文章的 id
 
 ### 请求体
 
@@ -83,22 +82,43 @@ id    | string{32} | 分支文章的 id
   title: string // 文章标题
   body: string // 文章的正文内容
   summary: string // 文章摘要
-  external_url: string // 文章的原文绝对地址(外部地址)
-  jump_url: string // 文章的跳转绝对地址
-  icon_url: string // 文章的图标绝对地址
-  title_image_url: string[] // 题图的绝对地址数组, 可能为空
-  create_at: number // 文章创建时间, Unix时间戳
-  update_at: number // 文章更新时间, Unix时间戳
+  url: string // 文章的原文绝对地址(外部地址)
+  jumpUrl: string // 文章的跳转绝对地址
+  iconUrl: string // 文章的图标绝对地址
+  title_imageUrl: string[] // 题图的绝对地址数组, 可能为空
+  createTime: number // 文章创建时间, Unix时间戳
+  updateTime: number // 文章更新时间, Unix时间戳
   tags: string[] // 标签名数组, 可能为空
-  remark: string // 分支文章的备注
-  base_id: string{32} // 对应基底文章的 id
-  user_id: string // 对应创建该分支文章的用户的 id
 }
 ```
 
 ---
+## 请求修改文章
 
-## 修改分支文章
+### HTTP 请求
+
+```
+GET  /v2/articles/:id/askEdit
+HEAD /v2/articles/:id/askEdit
+```
+
+
+### URL 参数
+
+参数名 | 值类型      | 描述
+----- | ---------- | -----------
+id    | string{32} | 文章的 id
+### 请求体
+
+无
+### 响应头
+403 禁止
+200 可以修改
+### 响应体
+无
+
+---
+## 修改文章
 
 ### HTTP 请求
 
@@ -111,7 +131,7 @@ PATCH /v2/articles/:id
 
 参数名 | 值类型      | 描述
 ----- | ---------- | -----------
-id    | string{32} | 分支文章的 id
+id    | string{32} | 文章的 id
 
 ### 请求体
 
@@ -120,8 +140,8 @@ id    | string{32} | 分支文章的 id
 ```
 {
   title: string // 文章标题
-  tags: string[] // 标签名数组, 可能为空
-  remark: string // 分支文章的备注
+  tags: string[] // 标签名数组
+  summary: string // 文章摘要
 }
 ```
 
@@ -133,15 +153,12 @@ id    | string{32} | 分支文章的 id
   title: string // 文章标题
   body: string // 文章的正文内容
   summary: string // 文章摘要
-  external_url: string // 文章的原文绝对地址(外部地址)
-  jump_url: string // 文章的跳转绝对地址
-  icon_url: string // 文章的图标绝对地址
-  title_image_url: string[] // 题图的绝对地址数组, 可能为空
-  create_at: number // 文章创建时间, Unix时间戳
-  update_at: number // 文章更新时间, Unix时间戳
+  url: string // 文章的原文绝对地址(外部地址)
+  jumpUrl: string // 文章的跳转绝对地址
+  iconUrl: string // 文章的图标绝对地址
+  title_imageUrl: string[] // 题图的绝对地址数组, 可能为空
+  createTime: number // 文章创建时间, Unix时间戳
+  updateTime: number // 文章更新时间, Unix时间戳
   tags: string[] // 标签名数组, 可能为空
-  remark: string // 分支文章的备注
-  base_id: string{32} // 对应基底文章的 id
-  user_id: string // 对应创建该分支文章的用户的 id
 }
 ```

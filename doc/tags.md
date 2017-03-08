@@ -11,15 +11,15 @@
 ### HTTP 请求
 
 ```
-GET  /v2/tags/:tag_name
-HEAD /v2/tags/:tag_name
+GET  /v2/tags/:tagName
+HEAD /v2/tags/:tagName
 ```
 
 ### URL 参数
 
 参数名     | 值类型      | 描述
 --------- | ---------- | -------------------------------------------------------
-tag_name  | string     | 标签名, 需要 URL encode
+tagName  | string     | 标签名, 需要 URL encode
 
 ### 请求体
 
@@ -29,8 +29,9 @@ tag_name  | string     | 标签名, 需要 URL encode
 
 ```
 {
+  id：string
   name: string // 标签名
-  followers_count: number // 关注标签的用户数量
+  fansCount: number // 关注标签的用户数量
 }
 ```
 
@@ -41,33 +42,32 @@ tag_name  | string     | 标签名, 需要 URL encode
 ### HTTP 请求
 
 ```
-GET  /v2/tags/:tag_name/follower
-HEAD /v2/tags/:tag_name/follower
+GET  /v2/tags/:tagName/fans
+HEAD /v2/tags/:tagName/fans
 ```
 
 ### URL 参数
 
-参数名     | 值类型      | 描述
---------- | ---------- | -------------------------------------------------------
-tag_name  | string     | 标签名, 需要 URL encode
-count     | number     | 可选, 这是一个属性请求, 存在该参数时, 将忽略除 tag_name 外的所有参数, 返回结果改为目标标签的关注者数量
+参数名   | 值类型    | 描述
+-------- | --------- | ----------------------------
+tagName  | string    | 标签名, 需要 URL encode
+
 
 ### 请求体
 
 无
 
+### 响应头
+
+count:100
+
 ### 响应体
 
-通常情况下返回值为数组:
+返回值为数组:
 
 ```
 [users]
 ```
 
-当存在 count 属性请求时返回值为:
 
-```
-{
-  count: number
-}
-```
+>  使用tagId 查询时，地址换为/v2/tagId/:tagId  其他不变
