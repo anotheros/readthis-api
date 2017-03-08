@@ -7,7 +7,6 @@
 [授权](https://github.com/zhangshanhai/readthis-api/blob/master/doc/authorization.md)
 [时间线](https://github.com/zhangshanhai/readthis-api/blob/master/doc/timelines.md)
 [基底文档](https://github.com/zhangshanhai/readthis-api/blob/master/doc/bases.md)
-[---分支文章---](https://github.com/zhangshanhai/readthis-api/blob/master/doc/articles.md)
 [用户](https://github.com/zhangshanhai/readthis-api/blob/master/doc/users.md)
 [个性域名](https://github.com/zhangshanhai/readthis-api/blob/master/doc/url-tokens.md)
 [收藏夹](https://github.com/zhangshanhai/readthis-api/blob/master/doc/collections.md)
