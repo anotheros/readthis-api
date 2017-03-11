@@ -41,7 +41,7 @@ urlMd5 | string | 文章的 url 的 md5 值
   titleImageUrl: string[] // 文章题图的绝对地址数组, 可能为空
   createTime: number // 文章的创建时间, Unix时间戳
   updateTime: number // 文章的更新时间, Unix时间戳
-  tags: string[] // 基底的标签名数组, 此项为后端统计引用自文章分支文章的高频标签所生成, 更新频率为一天一次
+  tags: tag[] // 基底的标签名数组, 此项为后端统计引用自文章分支文章的高频标签所生成, 更新频率为一天一次
 }
 ```
 
