@@ -85,7 +85,7 @@ id    | string{32} | 文章的 id
   url: string // 文章的原文绝对地址(外部地址)
   jumpUrl: string // 文章的跳转绝对地址
   iconUrl: string // 文章的图标绝对地址
-  title_imageUrl: string[] // 题图的绝对地址数组, 可能为空
+  titleImageUrl: string[] // 题图的绝对地址数组, 可能为空
   createTime: number // 文章创建时间, Unix时间戳
   updateTime: number // 文章更新时间, Unix时间戳
   tags: string[] // 标签名数组, 可能为空
@@ -156,7 +156,7 @@ id    | string{32} | 文章的 id
   url: string // 文章的原文绝对地址(外部地址)
   jumpUrl: string // 文章的跳转绝对地址
   iconUrl: string // 文章的图标绝对地址
-  title_imageUrl: string[] // 题图的绝对地址数组, 可能为空
+  titleImageUrl: string[] // 题图的绝对地址数组, 可能为空
   createTime: number // 文章创建时间, Unix时间戳
   updateTime: number // 文章更新时间, Unix时间戳
   tags: string[] // 标签名数组, 可能为空
