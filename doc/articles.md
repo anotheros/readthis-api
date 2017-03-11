@@ -28,7 +28,7 @@ POST /v2/articles
 {
   title: string // 文章标题
   url: string // 文章的原文绝对地址(外部地址)
-  tags: string[] // 标签名数组, 可能为空
+  tags: tag[] // 标签名数组, 可能为空
   remark: string // 文章的备注
   collectionId: string // 用户的收藏夹 id, 文章将被添加到这个收藏夹, 此值为null时, 服务器会将文章添加到该用户的默认收藏夹
 }
@@ -48,7 +48,7 @@ POST /v2/articles
   titleImageUrl: string[] // 题图的绝对地址数组, 可能为空
   createTime: number // 文章创建时间, Unix时间戳
   updateTime: number // 文章更新时间, Unix时间戳
-  tags: string[] // 标签名数组, 可能为空
+  tags: tag[] // 标签名数组, 可能为空
   remark: string // 文章的备注
 }
 ```
@@ -88,7 +88,7 @@ id    | string{32} | 文章的 id
   titleImageUrl: string[] // 题图的绝对地址数组, 可能为空
   createTime: number // 文章创建时间, Unix时间戳
   updateTime: number // 文章更新时间, Unix时间戳
-  tags: string[] // 标签名数组, 可能为空
+  tags: tag[] // 标签名数组, 可能为空
 }
 ```
 
@@ -140,7 +140,7 @@ id    | string{32} | 文章的 id
 ```
 {
   title: string // 文章标题
-  tags: string[] // 标签名数组
+  tags: tag[] // 标签名数组
   summary: string // 文章摘要
 }
 ```
@@ -159,6 +159,6 @@ id    | string{32} | 文章的 id
   titleImageUrl: string[] // 题图的绝对地址数组, 可能为空
   createTime: number // 文章创建时间, Unix时间戳
   updateTime: number // 文章更新时间, Unix时间戳
-  tags: string[] // 标签名数组, 可能为空
+  tags: tag[] // 标签名数组, 可能为空
 }
 ```
