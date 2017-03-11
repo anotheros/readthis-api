@@ -226,21 +226,22 @@ collectionId   | string{32} | 微刊的 id
 ### HTTP 请求
 
 ```
-PUT /v2/collections/:collectionId/articles
-PATCH /v2/collections/:collectionId/articles
+PUT /v2/collections/:collectionId/articles/:articleId
+PATCH /v2/collections/:collectionId/articles/:articleId
 ```
 
 ### URL 参数
 
-参数名          | 值类型      | 描述
+参数名           | 值类型     | 描述
 --------------- | ---------- | -----------
 collectionId    | string{32} | 微刊的 id
+articleId       |string{32}  |文章的 id
 
 ### 请求体
 
 ```
 {
-  articleId: string{32} // 需要添加到微刊的文章的 id
+  articleId: string{32} // 文章的 id
   title: string // 文章标题
   tags: string[] // 标签名数组, 可能为空
   remark: string // 文章的备注
