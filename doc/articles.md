@@ -50,8 +50,8 @@ id    | string{32} | 文章的 id
 ### HTTP 请求
 
 ```
-GET  /v2/articles/:id/askEdit
-HEAD /v2/articles/:id/askEdit
+GET  /admin/v2/articles/:id/askEdit
+HEAD /admin/v2/articles/:id/askEdit
 ```
 
 
@@ -75,8 +75,8 @@ id    | string{32} | 文章的 id
 ### HTTP 请求
 
 ```
-PUT   /v2/articles/:id
-PATCH /v2/articles/:id
+PUT   /admin/v2/articles/:id
+PATCH /admin/v2/articles/:id
 ```
 
 ### URL 参数
