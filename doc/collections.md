@@ -56,7 +56,41 @@ POST /v2/collections
   userId: string{32} // 创建微刊的用户的 id
   isDefault: boolean // 是否为默认微刊
   visible:boolean // 是否公开
+  stages:number //总期刊数量，当前期刊
 }
+```
+
+---
+
+---
+
+## 发布期刊
+
+### HTTP 请求
+
+```
+POST /v2/collections/:collectionsId/stages/:stages
+```
+
+### URL 参数
+
+
+参数名           | 值类型     | 描述
+---------------- | ---------- | -----------
+collectionsId    | string{32} | 微刊的 id
+stages           |int         | 第几期刊。
+
+### 请求体
+
+无
+
+### 响应头
+204 或者其他
+
+### 响应体
+
+```
+
 ```
 
 ---
@@ -94,6 +128,7 @@ id    | string{32} | 微刊的 id
   fansCount: number // 该微刊的关注者数量
   isDefault: boolean // 是否为默认微刊
   visible:boolean // 是否公开
+  stages:number //总期刊数量，当前期刊
 }
 ```
 
@@ -369,6 +404,37 @@ articleId    | string{32} | 文章的 id
 
 ---
 
+
+## 查询期刊内文章
+
+### HTTP 请求
+
+```
+GET /v2/collections/:collectionsId/stages/:stages
+```
+
+### URL 参数
+
+
+参数名           | 值类型     | 描述
+---------------- | ---------- | -----------
+collectionsId    | string{32} | 微刊的 id
+stages           |int         | 第几期刊。
+
+### 请求体
+
+无
+
+### 响应头
+
+
+### 响应体
+
+```
+[articles]
+```
+
+---
 ## 获取微刊的关注者列表
 
 ### HTTP 请求
