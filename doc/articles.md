@@ -50,8 +50,8 @@ id    | string{32} | 文章的 id
 ### HTTP 请求
 
 ```
-GET  /admin/v2/articles/:id/askEdit
-HEAD /admin/v2/articles/:id/askEdit
+GET  /admin/v2/articles/:id
+HEAD /admin/v2/articles/:id
 ```
 
 
