@@ -155,8 +155,6 @@ PATCH /v2/collections/:id
   id: string{32} // 必填,微刊的 id
   name: string // 微刊的名称
   description: string // 微刊的描述文字
-  createTime: number // 创建微刊的时间, Unix 时间戳
-  updateTime: number // 更新微刊的时间, Unix 时间戳
   userId: string{32} // 创建微刊的用户的 id
   isDefault: boolean // 是否为默认微刊
   visible:boolean // 是否公开
