@@ -4,6 +4,8 @@
 
 ## API 文档
 
+[注册](https://github.com/zhangshanhai/readthis-api/blob/master/doc/register.md)√
+
 [授权](https://github.com/zhangshanhai/readthis-api/blob/master/doc/authorization.md)√
 
 
