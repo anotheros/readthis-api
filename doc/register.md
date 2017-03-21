@@ -52,13 +52,15 @@ POST /v2/email
 ```
 
 ### URL 参数
-
+参数名    | 值类型     | 描述
+-------- | ---------- | -----------
+email    | string{32} | admin@admin.com
 
 
 ### 请求体
 
 ```
-admin@admin.com
+
 ```
 ### 响应头
 
