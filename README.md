@@ -26,7 +26,7 @@
 [微刊](https://github.com/zhangshanhai/readthis-api/blob/master/doc/collections.md)√
 
 
-[标签](https://github.com/zhangshanhai/readthis-api/blob/master/doc/tags.md)√
+[标签](https://github.com/zhangshanhai/readthis-api/blob/master/doc/tags.md)
 
 
 [远程页面](https://github.com/zhangshanhai/readthis-api/blob/master/doc/remote-pages.md)√
