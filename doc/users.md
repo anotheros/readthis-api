@@ -60,8 +60,8 @@ id        | string{32} | 用户的 id
   idolCount: number // 正在关注数量
   fansCount: number // 粉丝数量
   collectionsCount: number // 微刊数量
-  idolCollectionsCount: number // 关注的微刊数量
-  idolTagsCount: number // 关注的标签数量
+  followCollectionsCount: number // 关注的微刊数量
+  followTagsCount: number // 关注的标签数量
 }
 ```
 
