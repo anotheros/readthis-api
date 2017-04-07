@@ -60,7 +60,9 @@ POST /v2/email
 ### 请求体
 
 ```
-admin@admin.com 
+{
+email: string //email地址
+}
 ```
 ### 响应头
 
