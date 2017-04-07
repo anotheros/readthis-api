@@ -2,7 +2,7 @@
 
 [Readthis](http://100000p.com)
 
-[功能](https://github.com/zhangshanhai/readthis-web/blob/master/README.md)
+[功能点](https://github.com/zhangshanhai/readthis-web/blob/master/README.md)
 
 [手绘图](https://github.com/zhangshanhai/readthis-web/blob/master/img/index.md)
 
