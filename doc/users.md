@@ -171,7 +171,10 @@ id        | string{32} | 用户的 id
 ### 请求体
 
 ```
-userId: string // 添加的用户 id
+{
+id:string， // 偶像id
+visible：boolean// 是否可见
+}
 ```
 
 ### 响应体
