@@ -113,6 +113,11 @@ POST /v2/user
 
 ### 响应体
 
-```
+注册成功 自动登录成功。
 
+```
+{
+  userId: string
+  token: string
+}
 ```
