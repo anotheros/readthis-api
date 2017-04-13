@@ -1,8 +1,8 @@
 # Readthis API 文档
 
-# [Readthis](http://100000p.com)
+ [Readthis](http://100000p.com)
 
-# [api地址](https://github.com/zhangshanhai/readthis-api)
+# [api文档地址](https://github.com/zhangshanhai/readthis-api)
 
 # [功能点](https://github.com/zhangshanhai/readthis-web/blob/master/README.md)
 
