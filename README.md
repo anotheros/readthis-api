@@ -1,10 +1,15 @@
 # Readthis API 文档
 
-[Readthis](http://100000p.com)
+# [Readthis](http://100000p.com)
 
-[功能点](https://github.com/zhangshanhai/readthis-web/blob/master/README.md)
+# [api地址](https://github.com/zhangshanhai/readthis-api)
 
-[手绘图](https://github.com/zhangshanhai/readthis-web/blob/master/img/index.md)
+# [功能点](https://github.com/zhangshanhai/readthis-web/blob/master/README.md)
+
+# [手绘图](https://github.com/zhangshanhai/readthis-web/blob/master/img/index.md)
+
+
+api 根目录 api.sbxiaomi.com
 
 ## API 文档
 
