@@ -11,6 +11,8 @@
 
 api 根目录 api.sbxiaomi.com
 
+注意 改api 支持 http2 。 http2 比http1.1 更强悍。
+
 ## API 文档
 
 [注册](https://github.com/zhangshanhai/readthis-api/blob/master/doc/register.md)√
