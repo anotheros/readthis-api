@@ -286,7 +286,9 @@ id        | string{32} | 用户的 id
 
 ```
 {
-  collectionId: string // 微刊的 id
+  id: string // 微刊的 id
+  visible: boolen// 是否可见，非悄悄关注
+  special:boolen // 特别关注。置顶。
 }
 ```
 
@@ -437,7 +439,38 @@ id        | string{32} | 用户的 id
 ### 请求体
 
 ```
-tagName: string // 标签名
+{
+  id: string // tag的 id
+  visible: boolen// 是否可见，非悄悄关注
+  special:boolen // 特别关注。置顶。
+}
+```
+
+### 响应体
+
+无
+
+
+### HTTP 请求
+
+```
+POST /v2/users/:id/tagName
+```
+
+### URL 参数
+
+参数名    | 值类型     | 描述
+--------- | ---------- | -------------------------------
+id        | string{32} | 用户的 id
+
+### 请求体
+
+```
+{
+  tagName: string // 标签名字
+  visible: boolen// 是否可见，非悄悄关注
+  special:boolen // 特别关注。置顶。
+}
 ```
 
 ### 响应体
@@ -451,8 +484,30 @@ tagName: string // 标签名
 ### HTTP 请求
 
 ```
-GET  /v2/users/:userId/tags/:tagName
-HEAD /v2/users/:userId/tags/:tagName
+GET  /v2/users/:userId/tags/:tagId
+HEAD /v2/users/:userId/tags/:tagId
+```
+
+### URL 参数
+
+参数名   | 值类型     | 描述
+-------- | ---------- | -----------------------------
+userId   | string{32} | 用户的 id
+tagId  | string     | 标签id
+
+### 请求体
+
+无
+
+### 响应体
+
+如果存在, 跳转到 `/tags/:tagId`
+
+### HTTP 请求
+
+```
+GET  /v2/users/:userId/tagName/:tagName
+HEAD /v2/users/:userId/tagName/:tagName
 ```
 
 ### URL 参数
@@ -470,6 +525,7 @@ tagName  | string     | 标签名
 
 如果存在, 跳转到 `/tags/:tagName`
 
+
 ---
 
 ## 获取关注的标签列表
@@ -478,6 +534,7 @@ tagName  | string     | 标签名
 
 ```
 GET /v2/users/:id/tags
+GET /v2/users/:id/tags_id
 ```
 
 ### URL 参数
@@ -506,6 +563,9 @@ count:100
 ```
 
 
+```
+[ids]
+```
 
 ---
 
@@ -514,8 +574,32 @@ count:100
 ### HTTP 请求
 
 ```
-GET  /v2/users/:userId/tags/:tagName
-HEAD /v2/users/:userId/tags/:tagName
+GET  /v2/users/:userId/tags/:tagId
+HEAD /v2/users/:userId/tags/:tagId
+```
+
+### URL 参数
+
+参数名   | 值类型     | 描述
+-------- | ---------- | -----------------------------
+userId   | string{32} | 用户的 id
+tagId  | string{32}     | 标签id
+
+### 请求体
+
+无
+
+### 响应体
+
+无
+
+---
+
+### HTTP 请求
+
+```
+GET  /v2/users/:userId/tagName/:tagName
+HEAD /v2/users/:userId/tagName/:tagName
 ```
 
 ### URL 参数
