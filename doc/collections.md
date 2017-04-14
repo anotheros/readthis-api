@@ -320,7 +320,7 @@ count:100
 
 
 ```
-[articles]
+[articles] 不包括文章正文内容 body字段
 ```
 
 
@@ -348,7 +348,7 @@ articleId    | string{32} | 文章的 id
 ### 响应体
 
 ```
-[articles]
+[articles] 包括文章正文内容 body字段
 ```
 
 ---
@@ -430,7 +430,7 @@ stages           |int         | 第几期刊。
 ### 响应体
 
 ```
-[articles]
+[articles] 不包括文章正文内容 body字段
 ```
 
 ---
