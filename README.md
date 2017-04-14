@@ -1,6 +1,8 @@
 # Readthis API 文档
 
- [Readthis](http://100000p.com)
+ [Readthis](http://100000p.com) 
+ [android 端移步此处](https://github.com/zhangshanhai/100000p-android) 
+ [ios 端移步到此处](https://github.com/zhangshanhai/100000p-ios)
 
 # [api文档地址](https://github.com/zhangshanhai/readthis-api)
 
