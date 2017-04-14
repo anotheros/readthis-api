@@ -60,3 +60,5 @@ Readthis 的 API 遵循[现代 RESTful API 设计规范](https://github.com/Blac
 ## 讨论
 
 [![](http://pub.idqqimg.com/wpa/images/group.png "用户交流群")](http://shang.qq.com/wpa/qunwpa?idkey=bc60b852e963704404153f225800257ab64dc5727cab6e777166f7d76046ba7a)
+
+群号:238068472
