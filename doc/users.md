@@ -351,6 +351,8 @@ HEAD /v2/users/:userId/followingCollections/:collectionId
 userId       | string{32} | 用户的 id
 collectionId | string     | 微刊的 id
 
+
+
 ### 请求体
 
 无
@@ -374,7 +376,7 @@ GET /v2/users/:id/followingCollections
 参数名    | 值类型     | 描述
 --------- | ---------- |------------------------------
 id        | string{32} | 用户的 id
-
+special   |boolean	   | 是否只要特殊关注，true 返回特殊关注；false返回 全部，按 特殊关注权重倒叙。默认false
 
 ### 请求体
 
@@ -542,7 +544,7 @@ GET /v2/users/:id/tags_id
 参数名    | 值类型     | 描述
 --------- | ---------- | -------------------------------
 id        | string{32} | 用户的 id
-
+special   |boolean	   | 是否只要特殊关注，true 返回特殊关注；false返回 全部，按 特殊关注权重倒叙。默认false
 
 ### 请求体
 
