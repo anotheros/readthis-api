@@ -288,7 +288,7 @@ id        | string{32} | 用户的 id
 {
   id: string // 微刊的 id
   visible: boolen// 是否可见，非悄悄关注
-  special:boolen // 特别关注。置顶。
+  special:int // 特别关注。置顶。权重
 }
 ```
 
@@ -442,7 +442,7 @@ id        | string{32} | 用户的 id
 {
   id: string // tag的 id
   visible: boolen// 是否可见，非悄悄关注
-  special:boolen // 特别关注。置顶。
+  special:int // 特别关注。置顶。权重。权重高，查询我关注的标签时，该标签就越靠前。为0 则 不是特别关注。
 }
 ```
 
@@ -469,7 +469,7 @@ id        | string{32} | 用户的 id
 {
   tagName: string // 标签名字
   visible: boolen// 是否可见，非悄悄关注
-  special:boolen // 特别关注。置顶。
+  special:int // 特别关注。置顶。权重
 }
 ```
 
