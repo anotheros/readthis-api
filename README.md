@@ -32,7 +32,7 @@ api 根目录 api.sbxiaomi.com
 [根据url查文章](https://github.com/zhangshanhai/readthis-api/blob/master/doc/bases.md)√
 
 
-[用户](https://github.com/zhangshanhai/readthis-api/blob/master/doc/users.md)
+[用户](https://github.com/zhangshanhai/readthis-api/blob/master/doc/users.md)√
 
 
 [个性域名](https://github.com/zhangshanhai/readthis-api/blob/master/doc/url-tokens.md)
@@ -41,10 +41,10 @@ api 根目录 api.sbxiaomi.com
 [微刊](https://github.com/zhangshanhai/readthis-api/blob/master/doc/collections.md)√
 
 
-[标签](https://github.com/zhangshanhai/readthis-api/blob/master/doc/tags.md)
+[标签](https://github.com/zhangshanhai/readthis-api/blob/master/doc/tags.md)√
 
 
-[远程页面](https://github.com/zhangshanhai/readthis-api/blob/master/doc/remote-pages.md)√
+[远程页面](https://github.com/zhangshanhai/readthis-api/blob/master/doc/remote-pages.md)
 
 ## 设计规范
 
