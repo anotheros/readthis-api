@@ -26,13 +26,25 @@ POST /v2/authorization
   password: string // 密码
 }
 ```
+### 响应头
+```
+Token: xxxxxx//认证token
+```
 
 ### 响应体
 
 ```
 {
-  userId: string
-  token: string
+  id: string // 用户的id
+  nickname: string // 昵称, 默认为 id, 可修改一次
+  urlToken: string // 个性域名, 默认为 id, 可修改一次
+  defaultCollectionsId:string  默认收藏夹id
+  createTime: number // 注册时间, Unix 时间戳
+  idolCount: number // 正在关注数量
+  fansCount: number // 粉丝数量
+  collectionsCount: number // 微刊数量
+  followCollectionsCount: number // 关注的微刊数量
+  followTagsCount: number // 关注的标签数量
 }
 ```
 ---
