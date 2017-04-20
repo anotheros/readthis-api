@@ -243,7 +243,8 @@ collectionId   | string{32} | 微刊的 id
   articleId: string{32} //可选,需要添加到微刊的文章的 id
   title: string // 可选,文章标题
   url: string //可选, 文章的原文绝对地址(外部地址)
-  tags: string[] //可选, 标签名数组, 可能为空
+  logo:string //可选, logo地址
+  tags: string[] //可选, 标签名数组, 可能为空
   remark: string //可选, 文章的备注
 }
 (articleId,url 其一必填，都写以id为主) 
