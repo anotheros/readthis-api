@@ -64,11 +64,32 @@ Readthis 的 API 遵循[现代 RESTful API 设计规范](https://github.com/Blac
 
 ## 问题汇总。
 
-1. 分页问题。
+1.分页问题。
 
 使用游标。取列表最后一个的id，作为下一个请求的cursor参数。
 
 第一次请求 20 条，显示10条，另外10条缓存起来，然后 加载更多的时候，从缓存中取出10条；然后从服务器请求10条 放缓存里。如果返回没有数据，则认为到达底部。这样好处是 体验上感觉很快。
+
+2.登录问题
+
+需要登录才能访问的api，如果没有登录，则返回 401 状态码。
+
+登录需要在header里 写入 Token 。
+Linux curl 示意，
+
+```
+curl -H "Token: xxxxx" http://xxxxx
+```
+
+所有api最好都带上 Token，除了注册登录。
+
+3.返回415 怎么办。 http 头 需要加上
+
+```
+Content-type: application/json;charset=UTF-8
+```
+ 
+4.错误信息 从返回的 header 里的 message 里取得。
 
 
 
