@@ -44,7 +44,7 @@ api 根目录 api.sbxiaomi.com
 [标签](https://github.com/zhangshanhai/readthis-api/blob/master/doc/tags.md)√
 
 
-[远程页面](https://github.com/zhangshanhai/readthis-api/blob/master/doc/remote-pages.md)
+[远程页面](https://github.com/zhangshanhai/readthis-api/blob/master/doc/remote-pages.md)√
 
 ## 设计规范
 
