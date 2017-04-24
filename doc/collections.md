@@ -64,6 +64,7 @@ POST /v2/collections
   fansCount: number //关注人数，不幂等
   special: number //关注 权重 ，不幂等
   summaryCount: number // 内有文章数量，不幂等
+  user: object//user对象
 }
 ```
 
@@ -139,6 +140,7 @@ id    | string{32} | 微刊的 id
   fansCount: number //关注人数，不幂等
   special: number //关注 权重 ，不幂等
   summaryCount: number // 内有文章数量，不幂等
+  user: object//user对象
 }
 ```
 
