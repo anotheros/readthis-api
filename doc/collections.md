@@ -60,6 +60,10 @@ POST /v2/collections
   isDefault: boolean // 是否为默认微刊
   visible:boolean // 是否公开
   stages:number //总期刊数量，当前期刊
+  following:boolean //是否关注状态，不 幂等
+  fansCount: number //关注人数，不幂等
+  special: number //关注 权重 ，不幂等
+  summaryCount: number // 内有文章数量，不幂等
 }
 ```
 
@@ -131,6 +135,10 @@ id    | string{32} | 微刊的 id
   isDefault: boolean // 是否为默认微刊
   visible:boolean // 是否公开
   stages:number //总期刊数量，当前期刊
+  following:boolean //是否关注状态，不 幂等
+  fansCount: number //关注人数，不幂等
+  special: number //关注 权重 ，不幂等
+  summaryCount: number // 内有文章数量，不幂等
 }
 ```
 
