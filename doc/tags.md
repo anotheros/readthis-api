@@ -35,6 +35,10 @@ tagId  | string     | tagId
   id：string
   name: string // 标签名
   fansCount: number // 关注标签的用户数量
+  following:boolean //是否关注状态，不 幂等
+  fansCount: number //关注人数，不幂等
+  special: number //关注 权重 ，不幂等
+  summaryCount: number // 关联文章数量，不幂等，为0 未使用
 }
 ```
 
@@ -62,11 +66,7 @@ limit     | number         | 可选, 限制返回的结果数量, 默认为 20
 ### 响应体
 
 ```
-{
-  id：string
-  name: string // 标签名
-  fansCount: number // 关注标签的用户数量
-}
+[tag]
 ```
 
 ---
@@ -126,11 +126,7 @@ tagName  | string     | 标签名, 需要 URL encode
 ### 响应体
 
 ```
-{
-  id：string
-  name: string // 标签名
-  fansCount: number // 关注标签的用户数量
-}
+{tag}
 ```
 
 ---
