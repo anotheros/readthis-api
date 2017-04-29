@@ -12,7 +12,7 @@
 ### HTTP 请求
 
 ```
-GET  /v2/proxy/:url
+GET  /v2/proxy
 ```
 
 ### URL 参数
