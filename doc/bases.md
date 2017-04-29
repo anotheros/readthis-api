@@ -11,15 +11,15 @@
 ### HTTP 请求
 
 ```
-GET  /v2/bases/:urlMd5
-HEAD /v2/bases/:urlMd5
+GET  /v2/bases
+HEAD /v2/bases
 ```
 
 ### URL 参数
 
 参数名   | 值类型  | 描述
 ------- | ------ | -------------------
-urlMd5 | string | 文章的 url 的 md5 值
+url | string | 文章的 url 
 
 ### 请求体
 
