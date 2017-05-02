@@ -26,8 +26,8 @@ url | string | 文章的 url ，需要urlencode
 {
   id: string{32} // 文章的 id
   title: string // 文章的标题
-  body: string // 文章的正文内容
-  summary: string // 文章的摘要
+  body: string // 文章的正文内容，md格式
+  summary: string // 文章的摘要
   externalUrl: string // 文章的原文绝对地址(外部地址)
   jumpUrl: string // 文章的跳转绝对地址
   iconUrl: string // 文章的图标绝对地址
@@ -38,6 +38,8 @@ url | string | 文章的 url ，需要urlencode
 }
 ```
 ### 举例
+
+[点击查看](https://api.100000p.com/v2/proxy?url=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMjM5NzE2MzAwMA%3D%3D%26mid%3D204800240%26idx%3D1%26sn%3Dc91bfbf4a8b435beec34596c4805d12b)
 
 ```
 https://api.100000p.com/v2/proxy?url=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMjM5NzE2MzAwMA%3D%3D%26mid%3D204800240%26idx%3D1%26sn%3Dc91bfbf4a8b435beec34596c4805d12b
