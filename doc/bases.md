@@ -37,6 +37,10 @@ url | string | 文章的 url ，需要urlencode
   tags: tag[] // 基底的标签名数组, 此项为后端统计引用自文章分支文章的高频标签所生成, 更新频率为一天一次
 }
 ```
+### 举例
 
+```
+https://api.100000p.com/v2/proxy?url=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMjM5NzE2MzAwMA%3D%3D%26mid%3D204800240%26idx%3D1%26sn%3Dc91bfbf4a8b435beec34596c4805d12b
+```
 ---
 
