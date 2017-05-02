@@ -14,7 +14,7 @@ HEAD /v2/proxy
 
 参数名   | 值类型  | 描述
 ------- | ------ | -------------------
-url | string | 文章的 url 
+url | string | 文章的 url ，需要urlencode
 
 ### 请求体
 
