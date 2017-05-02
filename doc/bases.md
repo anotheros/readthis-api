@@ -1,18 +1,13 @@
-# 文章
-
-文章是相同原文地址的文章(articles)的统一来源, 文章由页面的 URL MD5 值保证唯一性, 只能通过后台创建, 不可经外部修改.
-
-**文章**
-* [用URL的MD5值获取文章](#用URL的MD5值获取文章)
 
 
-## 用URL的MD5值获取文章
+
+## 用URL获取文章
 
 ### HTTP 请求
 
 ```
-GET  /v2/bases
-HEAD /v2/bases
+GET  /v2/proxy
+HEAD /v2/proxy
 ```
 
 ### URL 参数
