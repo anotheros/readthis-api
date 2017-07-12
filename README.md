@@ -17,7 +17,7 @@
 # [产品方向目标](https://github.com/zhangshanhai/readthis-api/blob/master/pm.md)
 
 
-api 根目录 api.sbxiaomi.com
+api 根目录 api.100000p.com
 
 注意 该api 支持 http2 。 http2 比http1.1 更强悍。
 
