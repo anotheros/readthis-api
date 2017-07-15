@@ -15,7 +15,7 @@ HEAD /v2/proxy
 参数名   | 值类型  | 描述
 ------- | ------ | -------------------
 url | string | 文章的 url ，需要urlencode
-
+nobody|true false|选填，不写 为false 返回文章内容；true 不返回文章正文
 ### 请求体
 
 无
