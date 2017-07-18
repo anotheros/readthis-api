@@ -41,6 +41,7 @@ id    | string{32} | 文章的 id
   createTime: number // 文章创建时间, Unix时间戳
   updateTime: number // 文章更新时间, Unix时间戳
   tags: tag[] // 标签名数组, 可能为空
+  snapshot:boolean // 是否支持快照，支持快照时表示服务器中有body 缓存。如果不支持，客户端需要在 app内置webviwe中打开jumpUrl 地址。
 }
 ```
 
@@ -105,12 +106,13 @@ id    | string{32} | 文章的 id
   title: string // 文章标题
   body: string // 文章的正文内容
   summary: string // 文章摘要
-  url: string // 文章的原文绝对地址(外部地址)
+  url: string // 文章的原文绝对地址(外部地址，用于显示)
   jumpUrl: string // 文章的跳转绝对地址
   iconUrl: string // 文章的图标绝对地址
   titleImageUrl: string[] // 题图的绝对地址数组, 可能为空
   createTime: number // 文章创建时间, Unix时间戳
   updateTime: number // 文章更新时间, Unix时间戳
   tags: tag[] // 标签名数组, 可能为空
+  snapshot:boolean // 是否支持快照，支持快照时表示服务器中有body 缓存。如果不支持，客户端需要在 app内置webviwe中打开jumpUrl 地址。
 }
 ```
