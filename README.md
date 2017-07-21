@@ -93,7 +93,23 @@ curl -H "Token: xxxxx" http://xxxxx
 Content-type: application/json;charset=UTF-8
 ```
  
-4.错误信息 从返回的 header 里的 message 里取得。
+4.错误信息 从返回的 header 里的 code 里取得 错误码，含义如下。
+
+| code         | 中文   | 英文 | 
+| ------------ | ----- | ---- |
+| 1001         |校验码不能为空 | code is not empty| 
+| 1002         |email不能为空 | email is not empty| 
+| 1003         |注册失败 | regist is fail| 
+| 1004         |token 失效或者不正确| token is illegal| 
+| 1005         |密码不正确或者用户不存在|Email does not exist or password is incorrect| 
+| 2001         |收藏夹名字不能为空|collections name can not be null| 
+| 2002         |没有这个收藏夹|this collections does not exist| 
+| 2003         |没有这个文章|this article does not exist| 
+| 2004         |这个文章已经存在|this article does exist| 
+| 2005         |url地址在黑名单中|this article in the blacklist| 
+
+
+
 
 
 
