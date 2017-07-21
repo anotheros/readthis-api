@@ -107,9 +107,12 @@ Content-type: application/json;charset=UTF-8
 | 2003         |没有这个文章|this article does not exist| 
 | 2004         |这个文章已经存在|this article does exist| 
 | 2005         |url地址在黑名单中|this article in the blacklist| 
-
-
-
+| 2006         |没有在这个收藏夹中找到该文章|this article not in this collections| 
+| 2007         |没有在这个标签|tag does not exist| 
+| 3001         |未找到该用户|this user does not exist| 
+|9001|参数校验不合法|Illegal parameter calibration |
+|9404|未找到|not fond|
+| 9999         |其他系统错误|system error| 
 
 
 
