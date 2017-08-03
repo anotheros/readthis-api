@@ -111,7 +111,8 @@ Content-type: application/json;charset=UTF-8
 | 2007         |没有在这个标签|tag does not exist| 
 | 3001         |未找到该用户|this user does not exist| 
 |9001|参数校验不合法|Illegal parameter calibration |
-|9401|没有权限|not auth|
+|9401|没有登录|not login|
+|9403|没有权限|not auth|
 |9404|未找到|not fond|
 | 9999         |其他系统错误|system error| 
 
