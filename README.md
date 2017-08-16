@@ -4,24 +4,28 @@
  [android 端移步此处](https://github.com/zhangshanhai/100000p-android) 
  [ios 端移步到此处](https://github.com/zhangshanhai/100000p-ios)
 
-# [墨刀 交互原型](https://pro.modao.cc/app/LBLKgOOullAvgb5V9e8N1hGmWZ4DHHd)
+[墨刀 交互原型](https://pro.modao.cc/app/LBLKgOOullAvgb5V9e8N1hGmWZ4DHHd)
 
-# [api文档地址](https://github.com/zhangshanhai/readthis-api)
+[api文档地址](https://github.com/zhangshanhai/readthis-api)
 
-# [功能点](https://github.com/zhangshanhai/readthis-web/blob/master/README.md)
+[功能点](https://github.com/zhangshanhai/readthis-web/blob/master/README.md)
 
-# [手绘图](https://github.com/zhangshanhai/readthis-web/blob/master/img/index.md)
+[手绘图](https://github.com/zhangshanhai/readthis-web/blob/master/img/index.md)
 
-# [ui设计图](https://github.com/zhangshanhai/readthis-web/blob/master/100000p)
+# [ui设计图](https://github.com/zhangshanhai/readthis-web/tree/master/10%E4%B8%87%E5%8A%A0)
 
-# [产品方向目标](https://github.com/zhangshanhai/readthis-api/blob/master/pm.md)
+[产品方向目标](https://github.com/zhangshanhai/readthis-api/blob/master/pm.md)
 
+
+[lite版本需求说明](https://github.com/zhangshanhai/readthis-api/blob/master/lite.md)
 
 api 根目录 api.100000p.com
 
 注意 该api 支持 http2 。 http2 比http1.1 更强悍。
 
 ## API 文档
+
+# 👉👉👉[修改记录日志必看](https://github.com/zhangshanhai/readthis-api/blob/master/changeLog.md)👈👈👈
 
 [注册](https://github.com/zhangshanhai/readthis-api/blob/master/doc/register.md)√
 
@@ -49,6 +53,10 @@ api 根目录 api.100000p.com
 
 
 [远程页面](https://github.com/zhangshanhai/readthis-api/blob/master/doc/remote-pages.md)√
+
+[Android 更新api](https://github.com/zhangshanhai/readthis-api/blob/master/doc/androidUpdate.md)√
+
+[Android 更新api](https://github.com/zhangshanhai/readthis-api/blob/master/doc/androidUpdate.md)√
 
 ## 设计规范
 
