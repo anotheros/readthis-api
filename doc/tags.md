@@ -33,7 +33,7 @@ tagId  | string     | tagId
 ```
 {
   id：string
-  name: string // 标签名
+  tagName: string // 标签名
   fansCount: number // 关注标签的用户数量
   following:boolean //是否关注状态，不 幂等
   fansCount: number //关注人数，不幂等
