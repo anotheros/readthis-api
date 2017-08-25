@@ -338,8 +338,8 @@ head /v2/collections/:id/articles
 --------- | ---------- | ------------------------------------
 id        | string{32} | 微刊的 id
 cursor    | string     | 可选, 作为起始点的 article 的 id, 如果此项为空, 后端将默认以最新的 article 作为起始点
-tag     | string     | 可选, 标签名字，按标签过滤 【仅此head方法支持】
-tagId     | string{32}     | 可选, 标签Id，按标签过滤 【仅此head方法支持】
+tag     | string     | 可选, 标签名字，按标签过滤 【仅get方法支持】
+tagId     | string{32}     | 可选, 标签Id，按标签过滤 【仅get方法支持】
 limit     | number     | 可选, 限制返回的结果数量, 默认为 20
 
 
