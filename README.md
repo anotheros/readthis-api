@@ -56,7 +56,7 @@ api 根目录 api.100000p.com
 
 [Android 更新api](https://github.com/zhangshanhai/readthis-api/blob/master/doc/androidUpdate.md)√
 
-[Android 更新api](https://github.com/zhangshanhai/readthis-api/blob/master/doc/androidUpdate.md)√
+[设置页面 api](https://github.com/zhangshanhai/readthis-api/blob/master/doc/setting.md)√
 
 ## 设计规范
 
