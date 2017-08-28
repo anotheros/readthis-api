@@ -1,11 +1,11 @@
 设置页面
 
-该api是给 设置页面使用。
+该api是给 设置页面使用。0是Android，1是 ios
 
 ### HTTP 请求
 
 ```
-GET  /v2/setting/setting.json
+GET  /v2/setting/{0|1}/setting.json
 ```
 ### 响应体
 
