@@ -13,6 +13,7 @@ GET  /v2/setting/{0|1}/:id
 {
     "ad": {
         "admob": {
+            "appId": "ca-app-pub-5848250249243611~3054683928",
             "feedAdId": "ca-app-pub-5848250249243611/2336977552",
             "articleAdId": "ca-app-pub-5848250249243611/7588825304",
             "rewardedVideoAdId": "ca-app-pub-5848250249243611/3026919298"
