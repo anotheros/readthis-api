@@ -5,21 +5,26 @@
 ### HTTP 请求
 
 ```
-GET  /v2/setting/{0|1}/setting.json
+GET  /v2/setting/{0|1}
 ```
 ### 响应体
 
 ```
-[
-	{
-	  title: string // 例如活动
-	  url: string // 
-	},
-	{
-	  title: string // 标题 例如精品推荐
-	  url: string // 点击后的地址
-	}
-]
+{
+    "ad": {
+        "admob": {
+            "feedAdId": "ca-app-pub-5848250249243611/2336977552",
+            "articleAdId": "ca-app-pub-5848250249243611/7588825304",
+            "rewardedVideoAdId": "ca-app-pub-5848250249243611/3026919298"
+        }
+    },
+    "activities": [
+        {
+            "title": "十万加首页",
+            "url": "https://100000p.com"
+        }
+    ]
+}
 ```
 
 
