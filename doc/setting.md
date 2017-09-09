@@ -5,7 +5,7 @@
 ### HTTP 请求
 
 ```
-GET  /v2/setting/{0|1}
+GET  /v2/setting/{0|1}/:id
 ```
 ### 响应体
 
