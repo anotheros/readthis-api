@@ -576,8 +576,8 @@ count:100
 ### HTTP 请求
 
 ```
-GET  /v2/users/:userId/tags/:tagId
-HEAD /v2/users/:userId/tags/:tagId
+DELETE  /v2/users/:userId/tags/:tagId
+
 ```
 
 ### URL 参数
