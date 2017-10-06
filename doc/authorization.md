@@ -3,9 +3,11 @@
 授权管理.
 
 **授权**
+
 * [创建授权](#创建授权)
 * [注销授权](#注销授权)
 * [判断token是否过期](#判断token是否过期)
+
 ## 创建授权
 
 ### HTTP 请求
@@ -50,6 +52,7 @@ Token: xxxxxx//认证token
 ---
 
 ## 判断token是否过期
+
 ```
 head /v2/authorization/:token
 ```
