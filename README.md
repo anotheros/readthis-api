@@ -117,7 +117,10 @@ Content-type: application/json;charset=UTF-8
 | 2005         |url地址在黑名单中|this article in the blacklist| 
 | 2006         |没有在这个收藏夹中找到该文章|this article not in this collections| 
 | 2007         |没有在这个标签|tag does not exist| 
+| 2008         |收藏夹名字已经存在|collections name does  exist| 
 | 3001         |未找到该用户|this user does not exist| 
+| 2001         |社群名字不能为空|collections name can not be null| 
+| 4008         |社群名字已经存在|collections name does  exist| 
 |9001|参数校验不合法|Illegal parameter calibration |
 |9401|没有登录|not login|
 |9403|没有权限|not auth|
