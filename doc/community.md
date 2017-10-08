@@ -47,7 +47,7 @@ POST /v2/community
 ```
 {
   name: string // 社群的名称
-  remark: string // 社群的描述文字
+  description: string // 社群的描述文字
   userId: string{32} // 可选,创建微刊的用户的 id
   visible:boolean //可选, 是否公开;默认 是
   contentVisible:boolean //可选 内容是否公开;默认 是
@@ -67,7 +67,7 @@ POST /v2/community
 {
   id: string{32} // 社群的 id
   name: string // 社群的名称
-  remark: string // 社群的描述文字
+  description: string // 社群的描述文字
   userId: string{32} // 可选,创建社群的用户的 id
   visible:boolean //可选, 是否公开;默认 是
   contentVisible:boolean //可选 内容是否公开;默认 是
@@ -137,7 +137,7 @@ id               | string{32} | 社区的 id
 ```
 {
   
-  remark: string // 社群的描述文字
+  description: string // 社群的描述文字
   logo:string//可选 
   img:string//可选 
   domain:string//可选
