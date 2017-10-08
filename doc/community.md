@@ -136,8 +136,8 @@ id               | string{32} | 社区的 id
 
 ```
 {
-  
-  description: string // 社群的描述文字
+  id:long
+  description: string // 社群的描述文字
   logo:string//可选 
   img:string//可选 
   domain:string//可选
@@ -174,8 +174,11 @@ id               | string{32} | 社区的 id
 
 ```
 {
-  
-  visible:boolean //可选, 是否公开;默认 是
+ 
+  id:long,
+  visible:boolean,//可选, 是否被搜索，发现;默认 否
+  memberReview:boolean//可选, 用户是否先审核后加入;默认 否
+  visible:boolean //可选, 是否公开;默认 是
   contentVisible:boolean //可选 内容是否公开;默认 是
   mute:boolean //可选 是否只有管理员可发帖;默认 否
 }
