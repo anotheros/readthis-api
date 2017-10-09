@@ -494,7 +494,7 @@ CommunityMemberVo
   communityId;
   userId:String{32}//用户id
   userName:string//
-  isAdmin:boolean  //是否是管理员
+  admin:boolean  //是否是管理员
   owner:boolean//是否是群主
   black:boolean//是否拉黑
   mute:boolean//是否静音
@@ -633,7 +633,7 @@ memberId    | long     | memberId
 
 ```
 {
-  isAdmin:boolean  //是否是管理员
+  admin:boolean  //是否是管理员
   black:boolean//是否拉黑
   mute:boolean//是否静音
   status:int;//-1 已经踢出去；1 审核通过；-9999 拉黑

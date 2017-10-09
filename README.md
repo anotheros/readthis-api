@@ -48,6 +48,7 @@ api 根目录 api.100000p.com
 
 [微刊](https://github.com/zhangshanhai/readthis-api/blob/master/doc/collections.md)√
 
+[社群](https://github.com/zhangshanhai/readthis-api/blob/master/doc/community.md)√
 
 [标签](https://github.com/zhangshanhai/readthis-api/blob/master/doc/tags.md)√
 
