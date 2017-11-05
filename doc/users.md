@@ -59,7 +59,8 @@ id        | string{32} | 用户的 id
 ```
 {
   id: string // 用户的id
-  nickname: string // 昵称, 默认为 id, 可修改一次
+  avatar: string //用户头像
+  nickname: string // 昵称, 默认为 id, 可修改一次
   urlToken: string // 个性域名, 默认为 id, 可修改一次
   defaultCollectionsId:string  默认收藏夹id
   createTime: number // 注册时间, Unix 时间戳
