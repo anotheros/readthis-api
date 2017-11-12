@@ -120,13 +120,17 @@ Content-type: application/json;charset=UTF-8
 | 2006         |没有在这个收藏夹中找到该文章|this article not in this collections| 
 | 2007         |没有在这个标签|tag does not exist| 
 | 2008         |收藏夹名字已经存在|collections name does  exist| 
+| 2009         |收藏夹id不能为空|collectionsid can not be null| 
 | 3001         |未找到该用户|this user does not exist| 
 | 4001         |社群名字不能为空|community name can not be null| 
+| 4006         |没有在这个社群中找到该文章|this article not in this community | 
 | 4008         |社群名字已经存在|community name does  exist| 
-|9001|参数校验不合法|Illegal parameter calibration |
-|9401|没有登录|not login|
-|9403|没有权限|not auth|
-|9404|未找到|not fond|
+| 4009         |社群id不能为空| community can not be null|
+| 9001         |参数校验不合法|Illegal parameter calibration |
+| 9401         |没有登录|not login|
+| 9403         |没有权限|not auth|
+| 9404         |未找到|not fond|
+| 9507         |服务器存储失败|Insufficient Storage|
 | 9999         |其他系统错误|system error| 
 
 
