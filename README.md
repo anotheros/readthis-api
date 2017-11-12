@@ -111,6 +111,7 @@ Content-type: application/json;charset=UTF-8
 | 1003         |注册失败 | regist is fail| 
 | 1004         |token 失效或者不正确| token is illegal| 
 | 1005         |密码不正确或者用户不存在|Email does not exist or password is incorrect| 
+| 1006         |用户名不可用|username does exist| 
 | 2001         |收藏夹名字不能为空|collections name can not be null| 
 | 2002         |没有这个收藏夹|this collections does not exist| 
 | 2003         |没有这个文章|this article does not exist| 
