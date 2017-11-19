@@ -64,6 +64,16 @@ api 根目录 api.100000p.com
 Readthis 的 API 遵循[现代 RESTful API 设计规范](https://github.com/BlackGlory/modern-restful-api-design-specification).
 
 
+## 我不想bb什么是restful了。看下面
+
+api风格 [参考](https://developer.github.com/v3/)
+
+[阮一峰博客](http://www.ruanyifeng.com/blog/2014/05/restful_api.html)
+
+ios对应风格api [参考](https://github.com/cmoulton/grokSwiftREST_v1.3)
+
+这有一本书 [iOS Apps with REST APIs](http://www.jianshu.com/nb/3042559)
+
 ## api约定
 
 1. 请求list列表时 都需要带上参数，size。
@@ -134,9 +144,3 @@ Content-type: application/json;charset=UTF-8
 | 9999         |其他系统错误|system error| 
 
 
-
-## 讨论
-
-[![](http://pub.idqqimg.com/wpa/images/group.png "用户交流群")](http://shang.qq.com/wpa/qunwpa?idkey=bc60b852e963704404153f225800257ab64dc5727cab6e777166f7d76046ba7a)
-
-群号:238068472
