@@ -16,7 +16,7 @@
 ### HTTP 请求
 
 ```
-HEAD /v2/user/:userName
+HEAD/GET /v2/user/:userName
 ```
 
 ### URL 参数
