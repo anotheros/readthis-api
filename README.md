@@ -112,7 +112,16 @@ curl -H "Token: xxxxx" http://xxxxx
 Content-type: application/json;charset=UTF-8
 ```
  
-4.错误信息 从返回的 header 里的 code 里取得 错误码，含义如下。
+4.错误信息 从返回的 header 里的 code 里取得 错误码，body 返回如下实体。含义如下。
+
+[点这里查看 404 的例子](http://100000p.com/v2/articles/2c9f60ef5fa03e8c015fa0a913e4009)
+
+```
+{
+"httpCode": 2003,
+"httpMsg": "没有这个文章"
+}
+```
 
 | code         | 中文   | 英文 | 
 | ------------ | ----- | ---- |
