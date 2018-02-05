@@ -4,9 +4,9 @@
  [android 端移步此处](https://github.com/zhangshanhai/100000p-android) 
  [ios 端移步到此处](https://github.com/zhangshanhai/100000p-ios)
 
-[墨刀 交互原型](https://pro.modao.cc/app/LBLKgOOullAvgb5V9e8N1hGmWZ4DHHd)
+[白皮书](https://pro.modao.cc/app/LBLKgOOullAvgb5V9e8N1hGmWZ4DHHd)
 
-[api文档地址](https://github.com/zhangshanhai/readthis-api)
+[api文档地址](https://github.com/zhangshanhai/readthis-api/master/whitePaper.md)
 
 [功能点](https://github.com/zhangshanhai/readthis-web/blob/master/README.md)
 
